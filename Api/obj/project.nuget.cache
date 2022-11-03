@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SfG4S9eJwnJXGENmAM3szdsEJmCwUA1GL42YlWhFC9hKNLTEMsWZByhUdCeyCMbLhoGWA8W0/s9Y0aVQdTUW5A==",
+  "dgSpecHash": "WIVEVzWcFI0uPtoi/uUhtK6nH7RufJMqetLi/DNtpqv1IImUSivtzoyHctC2K9fZM9n+cdJZeCE8wHnVmMsxMQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\projetTI2022\\projetTI2022.csproj",
+  "projectFilePath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Api\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ma-ri\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\ma-ri\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
