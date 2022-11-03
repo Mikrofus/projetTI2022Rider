@@ -1,6 +1,6 @@
 namespace projetTI2022;
 
-public class WeatherForecast
+public class WeatherForecast 
 {
     public DateTime Date { get; set; }
 

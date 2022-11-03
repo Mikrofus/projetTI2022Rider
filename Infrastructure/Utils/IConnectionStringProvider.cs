@@ -1,6 +1,6 @@
 ﻿namespace Infrastructure.Utils;
 
-public interface IConnnectionStringProvider
+public interface IConnectionStringProvider
 {
     string Get(string key);
 }
