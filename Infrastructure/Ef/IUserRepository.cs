@@ -6,5 +6,5 @@ public interface IUserRepository
 {
     DbUser FetchById(int id);
 
-    DbUser Create(string nom, string prenom);
+    DbUser Create(string pseudo, string mail, string pass);
 }

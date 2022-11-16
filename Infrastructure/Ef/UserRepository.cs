@@ -22,10 +22,10 @@ public class UserRepository : IUserRepository
         return user;
     }
 
-    public DbUser Create(string nom, string prenom)
+    public DbUser Create(string pseudo, string mail, string pass)
     {
         using var context = _contextProvider.NewContext();
-        var user = new DbUser{Nom = nom, Prenom = prenom};
+        var user = new DbUser{Pseudo = pseudo, Mail = mail, Pass = pass};
         context.Users.Add(user);
         context.SaveChanges();
         return user;

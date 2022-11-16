@@ -26,11 +26,12 @@ public class ProjetTI2022Context : DbContext
     {
         modelBuilder.Entity<DbUser>(entity =>
         {
-            entity.ToTable("utilisateur");
+            entity.ToTable("users");
             entity.HasKey(u => u.Id);
             entity.Property(u => u.Id).HasColumnName("id");
-            entity.Property(u => u.Nom).HasColumnName("nom");
-            entity.Property(u => u.Prenom).HasColumnName("prenom");
+            entity.Property(u => u.Pseudo).HasColumnName("pseudo");
+            entity.Property(u => u.Mail).HasColumnName("mail");
+            entity.Property(u => u.Pass).HasColumnName("pass");
         });
     }
 
