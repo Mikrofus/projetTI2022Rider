@@ -26,6 +26,7 @@ public class UserRepository : IUserRepository
     {
         using var context = _contextProvider.NewContext();
         var user = new DbUser{Pseudo = pseudo, Mail = mail, Pass = pass};
+ 
         context.Users.Add(user);
         context.SaveChanges();
         return user;

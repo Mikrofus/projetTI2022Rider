@@ -1,4 +1,5 @@
-﻿using Application.UseCases.User.Dto;
+﻿using Application.UseCases.Auction.Dto;
+using Application.UseCases.User.Dto;
 using AutoMapper;
 using Domain;
 using Infrastructure.Ef.DbEntities;
@@ -23,7 +24,12 @@ public static class Mapper
             cfg.CreateMap<User, DtoOutputUser>();
             cfg.CreateMap<DbUser, DtoOutputUser>();
             cfg.CreateMap<DbUser, User>();
-           
+            
+            // Auction
+            cfg.CreateMap<Auction, DtoOutputAuction>();
+            cfg.CreateMap<DbAuction, DtoOutputAuction>();
+            cfg.CreateMap<DbAuction, Auction>();
+
         });
         return new AutoMapper.Mapper(config);
     }

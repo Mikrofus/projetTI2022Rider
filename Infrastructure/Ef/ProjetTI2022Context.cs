@@ -15,6 +15,7 @@ public class ProjetTI2022Context : DbContext
     }
     
     public DbSet<DbUser> Users { get; set; }
+    public DbSet<DbAuction> Auctions { get; set; }
     
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
@@ -33,7 +34,24 @@ public class ProjetTI2022Context : DbContext
             entity.Property(u => u.Mail).HasColumnName("mail");
             entity.Property(u => u.Pass).HasColumnName("pass");
         });
+        
+        modelBuilder.Entity<DbAuction>(entity =>
+        {
+            entity.ToTable("auction");
+            entity.HasKey(a => a.Id);
+            entity.Property(a => a.Id).HasColumnName("id");
+            entity.Property(a => a.IdUser).HasColumnName(("id_user"));
+            entity.Property(a => a.Title).HasColumnName("title");
+            entity.Property(a => a.Category).HasColumnName("category");
+            entity.Property(a => a.Descri).HasColumnName("descri");
+            entity.Property(a => a.Img).HasColumnName("img");
+            entity.Property(a => a.Price).HasColumnName("price");
+            entity.Property(a => a.Timer).HasColumnName("timer");
+        });
     }
+    
+    
+    
 
 
 }
