@@ -23,7 +23,7 @@ public class AuctionRepository : IAuctionRepository
         return auction;
     }
 
-    public DbAuction Create(int id_user, string title, string category, string descri, string img, float price, DateTime timer)
+    public DbAuction Create(int id_user, string title, string category, string descri, string img, decimal price, DateTime timer)
     {
         using var context = _contextProvider.NewContext();
         var auction = new DbAuction

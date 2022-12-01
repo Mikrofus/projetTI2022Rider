@@ -6,6 +6,6 @@ public interface IAuctionRepository
 {
     DbAuction FetchById(int id);
 
-    DbAuction Create(int id_user, string title, string category, string descri, string img, float price, DateTime timer);
+    DbAuction Create(int id_user, string title, string category, string descri, string img, decimal price, DateTime timer);
     
 }
