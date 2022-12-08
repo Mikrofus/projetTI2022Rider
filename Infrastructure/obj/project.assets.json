@@ -3263,11 +3263,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\ma-ri\\OneDrive\\Bureau\\HELHA_BLOC3\\Technologie_Internet\\Projet\\groupe10Projet\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "C:\\Users\\ma-ri\\OneDrive\\Bureau\\HELHA_BLOC3\\Technologie_Internet\\Projet\\groupe10Projet\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\ma-ri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\ma-ri\\OneDrive\\Bureau\\HELHA_BLOC3\\Technologie_Internet\\Projet\\groupe10Projet\\projetTI2022Rider\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

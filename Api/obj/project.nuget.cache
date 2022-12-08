@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ehlL4ZFzO6Itcd3aK4WSFut+FX0a19MEoDOVse5XYRX5XeegIdGOZ/X3JWQU3rLgPKQ1iY0GEJrR7Gnv9zGV/w==",
+  "dgSpecHash": "SeEEKc8iHUNVRXrlDCYoa5KCK5Ggx6FMz1oWbGlNoy3JL18IcQJI2oFnWcjFVh14kov6uzye7bNow76KaINtlg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Api\\Api.csproj",
+  "projectFilePath": "C:\\Users\\ma-ri\\OneDrive\\Bureau\\HELHA_BLOC3\\Technologie_Internet\\Projet\\groupe10Projet\\projetTI2022Rider\\Api\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ma-ri\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\ma-ri\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",

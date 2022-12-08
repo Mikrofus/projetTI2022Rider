@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\ma-ri\\OneDrive\\Bureau\\HELHA_BLOC3\\Technologie_Internet\\Projet\\groupe10Projet\\projetTI2022Rider\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Domain\\Domain.csproj",
+      "projectPath": "C:\\Users\\ma-ri\\OneDrive\\Bureau\\HELHA_BLOC3\\Technologie_Internet\\Projet\\groupe10Projet\\projetTI2022Rider\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\ma-ri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Domain\\obj\\",
+      "outputPath": "C:\\Users\\ma-ri\\OneDrive\\Bureau\\HELHA_BLOC3\\Technologie_Internet\\Projet\\groupe10Projet\\projetTI2022Rider\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

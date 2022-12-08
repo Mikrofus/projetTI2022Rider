@@ -26,6 +26,16 @@ builder.Services.AddScoped<UseCaseFetchUserById>();
 builder.Services.AddScoped<UseCaseCreateAuction>();
 builder.Services.AddScoped<UseCaseFetchAuctionById>();
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("Dev", policyBuilder =>
+    {
+        policyBuilder.WithOrigins("http://localhost:4200")
+            .AllowAnyMethod()
+            .AllowAnyHeader();
+    });
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -36,6 +46,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors("Dev");
 
 app.UseAuthorization();
 
