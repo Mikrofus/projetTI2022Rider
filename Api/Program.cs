@@ -1,8 +1,12 @@
+using System.Text;
 using Api;
 using Application.UseCases.Auction;
 using Application.UseCases.User;
 using Infrastructure.Ef;
+using Infrastructure.Security;
 using Infrastructure.Utils;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,6 +21,7 @@ builder.Services.AddScoped<IConnectionStringProvider, ConnectionStringProvider>(
 builder.Services.AddScoped<ProjetTI2022ContextProvider>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IAuctionRepository, AuctionRepository>();
+builder.Services.AddScoped<ITokenService, TokenService>();
 
 // Use cases users
 builder.Services.AddScoped<UseCaseCreateUser>();
@@ -35,6 +40,26 @@ builder.Services.AddCors(options =>
             .AllowAnyHeader();
     });
 });
+
+// Ajout du JWT
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
+{
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        ValidIssuer = Configuration["Jwt:Issuer"],
+        ValidAudience = Configuration["Jwt:Issuer"],
+        IssuerSigningKey = new SymmetricSecurityKey
+        (
+            Encoding.UTF8.GetBytes(Configuration["Jwt:Key"])
+        )
+    };
+});
+
+
 
 var app = builder.Build();
 
