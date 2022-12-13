@@ -1,0 +1,47 @@
+Index: Infrastructure/obj/Debug/net6.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Infrastructure/obj/Debug/net6.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig b/Infrastructure/obj/Debug/net6.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+--- a/Infrastructure/obj/Debug/net6.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig	
++++ b/Infrastructure/obj/Debug/net6.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig	
+@@ -7,4 +7,4 @@
+ build_property.PlatformNeutralAssembly = 
+ build_property._SupportedPlatformList = Linux,macOS,Windows
+ build_property.RootNamespace = Infrastructure
+-build_property.ProjectDir = C:\Users\kylli\RiderProjects\projetTI2022Rider\Infrastructure\
++build_property.ProjectDir = C:\Users\ma-ri\RiderProjects\projetTI2022\Infrastructure\
+Index: Api/obj/Debug/net6.0/Api.GeneratedMSBuildEditorConfig.editorconfig
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Api/obj/Debug/net6.0/Api.GeneratedMSBuildEditorConfig.editorconfig b/Api/obj/Debug/net6.0/Api.GeneratedMSBuildEditorConfig.editorconfig
+--- a/Api/obj/Debug/net6.0/Api.GeneratedMSBuildEditorConfig.editorconfig	
++++ b/Api/obj/Debug/net6.0/Api.GeneratedMSBuildEditorConfig.editorconfig	
+@@ -8,9 +8,9 @@
+ build_property._SupportedPlatformList = Linux,macOS,Windows
+ build_property.RootNamespace = Api
+ build_property.RootNamespace = Api
+-build_property.ProjectDir = C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\
++build_property.ProjectDir = C:\Users\ma-ri\RiderProjects\projetTI2022\Api\
+ build_property.RazorLangVersion = 6.0
+ build_property.SupportLocalizedComponentNames = 
+ build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+-build_property.MSBuildProjectDirectory = C:\Users\kylli\RiderProjects\projetTI2022Rider\Api
++build_property.MSBuildProjectDirectory = C:\Users\ma-ri\RiderProjects\projetTI2022\Api
+ build_property._RazorSourceGeneratorDebug = 
+Index: Application/obj/project.packagespec.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Application/obj/project.packagespec.json b/Application/obj/project.packagespec.json
+--- a/Application/obj/project.packagespec.json	
++++ b/Application/obj/project.packagespec.json	
+@@ -1,1 +1,1 @@
+-"restore":{"projectUniqueName":"C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Application\\Application.csproj","projectName":"Application","projectPath":"C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Application\\Application.csproj","outputPath":"C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Application\\obj\\","projectStyle":"PackageReference","originalTargetFrameworks":["net6.0"],"sources":{"https://api.nuget.org/v3/index.json":{}},"frameworks":{"net6.0":{"targetAlias":"net6.0","projectReferences":{"C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj":{"projectPath":"C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj"},"C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj":{"projectPath":"C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj"}}}},"warningProperties":{"warnAsError":["NU1605"]}}"frameworks":{"net6.0":{"targetAlias":"net6.0","dependencies":{"Microsoft.AspNetCore.Authentication":{"target":"Package","version":"[2.2.0, )"},"Microsoft.AspNetCore.Authentication.JwtBearer":{"target":"Package","version":"[6.0.0, )"}},"imports":["net461","net462","net47","net471","net472","net48","net481"],"assetTargetFallback":true,"warn":true,"frameworkReferences":{"Microsoft.NETCore.App":{"privateAssets":"all"}},"runtimeIdentifierGraphPath":"C:\\Users\\kylli\\.dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"}}
+\ No newline at end of file
++"restore":{"projectUniqueName":"C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Application\\Application.csproj","projectName":"Application","projectPath":"C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Application\\Application.csproj","outputPath":"C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Application\\obj\\","projectStyle":"PackageReference","fallbackFolders":["C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"],"originalTargetFrameworks":["net6.0"],"sources":{"https://api.nuget.org/v3/index.json":{}},"frameworks":{"net6.0":{"targetAlias":"net6.0","projectReferences":{"C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Domain\\Domain.csproj":{"projectPath":"C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Domain\\Domain.csproj"},"C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\Infrastructure.csproj":{"projectPath":"C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\Infrastructure.csproj"}}}},"warningProperties":{"warnAsError":["NU1605"]}}"frameworks":{"net6.0":{"targetAlias":"net6.0","dependencies":{"Microsoft.AspNetCore.Authentication":{"target":"Package","version":"[2.2.0, )"},"Microsoft.AspNetCore.Authentication.JwtBearer":{"target":"Package","version":"[6.0.0, )"}},"imports":["net461","net462","net47","net471","net472","net48","net481"],"assetTargetFallback":true,"warn":true,"frameworkReferences":{"Microsoft.NETCore.App":{"privateAssets":"all"}},"runtimeIdentifierGraphPath":"C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"}}
+\ No newline at end of file
