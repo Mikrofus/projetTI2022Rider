@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ma-ri\\OneDrive\\Bureau\\HELHA_BLOC3\\Technologie_Internet\\Projet\\groupe10Projet\\projetTI2022Rider\\Application\\Application.csproj": {}
+    "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Application\\Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ma-ri\\OneDrive\\Bureau\\HELHA_BLOC3\\Technologie_Internet\\Projet\\groupe10Projet\\projetTI2022Rider\\Application\\Application.csproj": {
+    "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ma-ri\\OneDrive\\Bureau\\HELHA_BLOC3\\Technologie_Internet\\Projet\\groupe10Projet\\projetTI2022Rider\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\ma-ri\\OneDrive\\Bureau\\HELHA_BLOC3\\Technologie_Internet\\Projet\\groupe10Projet\\projetTI2022Rider\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\ma-ri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ma-ri\\OneDrive\\Bureau\\HELHA_BLOC3\\Technologie_Internet\\Projet\\groupe10Projet\\projetTI2022Rider\\Application\\obj\\",
+        "projectPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\kylli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ma-ri\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\kylli\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -29,11 +26,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\ma-ri\\OneDrive\\Bureau\\HELHA_BLOC3\\Technologie_Internet\\Projet\\groupe10Projet\\projetTI2022Rider\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\ma-ri\\OneDrive\\Bureau\\HELHA_BLOC3\\Technologie_Internet\\Projet\\groupe10Projet\\projetTI2022Rider\\Domain\\Domain.csproj"
+              "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\ma-ri\\OneDrive\\Bureau\\HELHA_BLOC3\\Technologie_Internet\\Projet\\groupe10Projet\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\ma-ri\\OneDrive\\Bureau\\HELHA_BLOC3\\Technologie_Internet\\Projet\\groupe10Projet\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -47,6 +44,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -63,24 +70,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ma-ri\\OneDrive\\Bureau\\HELHA_BLOC3\\Technologie_Internet\\Projet\\groupe10Projet\\projetTI2022Rider\\Domain\\Domain.csproj": {
+    "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ma-ri\\OneDrive\\Bureau\\HELHA_BLOC3\\Technologie_Internet\\Projet\\groupe10Projet\\projetTI2022Rider\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\ma-ri\\OneDrive\\Bureau\\HELHA_BLOC3\\Technologie_Internet\\Projet\\groupe10Projet\\projetTI2022Rider\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\ma-ri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ma-ri\\OneDrive\\Bureau\\HELHA_BLOC3\\Technologie_Internet\\Projet\\groupe10Projet\\projetTI2022Rider\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\kylli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ma-ri\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\kylli\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -103,6 +107,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -119,24 +133,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ma-ri\\OneDrive\\Bureau\\HELHA_BLOC3\\Technologie_Internet\\Projet\\groupe10Projet\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ma-ri\\OneDrive\\Bureau\\HELHA_BLOC3\\Technologie_Internet\\Projet\\groupe10Projet\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\ma-ri\\OneDrive\\Bureau\\HELHA_BLOC3\\Technologie_Internet\\Projet\\groupe10Projet\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\ma-ri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ma-ri\\OneDrive\\Bureau\\HELHA_BLOC3\\Technologie_Internet\\Projet\\groupe10Projet\\projetTI2022Rider\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\kylli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ma-ri\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\kylli\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -164,6 +175,14 @@
               "target": "Package",
               "version": "[12.0.0, )"
             },
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.0-rc.2.22472.11, )"
@@ -189,7 +208,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
