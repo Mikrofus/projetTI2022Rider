@@ -13,6 +13,12 @@ public class AuctionRepository : IAuctionRepository
     }
 
 
+    public IEnumerable<DbAuction> FetchAll()
+    {
+        var context = _contextProvider.NewContext();
+        return context.Auctions.ToList();
+    }
+
     public DbAuction FetchById(int id)
     {
         using var context = _contextProvider.NewContext();
