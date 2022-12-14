@@ -46,6 +46,7 @@ public class ProjetTI2022Context : DbContext
             entity.Property(a => a.Descri).HasColumnName("descri");
             entity.Property(a => a.Img).HasColumnName("img");
             entity.Property(a => a.Price).HasColumnName("price");
+            entity.Property(a => a.IdUserBid).HasColumnName("id_user_bid");
             entity.Property(a => a.Timer).HasColumnName("timer");
         });
     }
