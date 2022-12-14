@@ -1,0 +1,124 @@
+<changelist name="Uncommitted_changes_before_Update_at_08-12-22_12_27_[Changes]1" date="1670498872991" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/shelf/Uncommitted_changes_before_Update_at_08-12-22_12_27_[Changes]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 08-12-22 12:27 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="Api/obj/Debug/net6.0/Api.genruntimeconfig.cache" />
+    <option name="AFTER_PATH" value="Api/obj/Debug/net6.0/Api.genruntimeconfig.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/shelf/Uncommitted_changes_before_Update_at_08-12-22_12_27_[Changes]1/Api.genruntimeconfig.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Domain/obj/Debug/net6.0/Domain.csproj.CoreCompileInputs.cache" />
+    <option name="AFTER_PATH" value="Domain/obj/Debug/net6.0/Domain.csproj.CoreCompileInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/shelf/Uncommitted_changes_before_Update_at_08-12-22_12_27_[Changes]1/Domain.csproj.CoreCompileInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Api/bin/Debug/net6.0/Domain.dll" />
+    <option name="AFTER_PATH" value="Api/bin/Debug/net6.0/Domain.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/shelf/Uncommitted_changes_before_Update_at_08-12-22_12_27_[Changes]1/Domain.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Application/bin/Debug/net6.0/Domain.pdb" />
+    <option name="AFTER_PATH" value="Application/bin/Debug/net6.0/Domain.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/shelf/Uncommitted_changes_before_Update_at_08-12-22_12_27_[Changes]1/Domain.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Infrastructure/obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="Infrastructure/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/shelf/Uncommitted_changes_before_Update_at_08-12-22_12_27_[Changes]1/project.nuget.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Application/bin/Debug/net6.0/Application.dll" />
+    <option name="AFTER_PATH" value="Application/bin/Debug/net6.0/Application.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/shelf/Uncommitted_changes_before_Update_at_08-12-22_12_27_[Changes]1/Application.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Infrastructure/obj/Debug/net6.0/Infrastructure.dll" />
+    <option name="AFTER_PATH" value="Infrastructure/obj/Debug/net6.0/Infrastructure.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/shelf/Uncommitted_changes_before_Update_at_08-12-22_12_27_[Changes]1/Infrastructure.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Application/bin/Debug/net6.0/Application.pdb" />
+    <option name="AFTER_PATH" value="Application/bin/Debug/net6.0/Application.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/shelf/Uncommitted_changes_before_Update_at_08-12-22_12_27_[Changes]1/Application.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Infrastructure/obj/Debug/net6.0/Infrastructure.pdb" />
+    <option name="AFTER_PATH" value="Infrastructure/obj/Debug/net6.0/Infrastructure.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/shelf/Uncommitted_changes_before_Update_at_08-12-22_12_27_[Changes]1/Infrastructure.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Application/obj/Debug/net6.0/Application.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="Application/obj/Debug/net6.0/Application.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/shelf/Uncommitted_changes_before_Update_at_08-12-22_12_27_[Changes]1/Application.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Domain/obj/Debug/net6.0/Domain.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="Domain/obj/Debug/net6.0/Domain.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/shelf/Uncommitted_changes_before_Update_at_08-12-22_12_27_[Changes]1/Domain.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Api/obj/Debug/net6.0/Api.assets.cache" />
+    <option name="AFTER_PATH" value="Api/obj/Debug/net6.0/Api.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/shelf/Uncommitted_changes_before_Update_at_08-12-22_12_27_[Changes]1/Api.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Api/obj/Debug/net6.0/Api.pdb" />
+    <option name="AFTER_PATH" value="Api/obj/Debug/net6.0/Api.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/shelf/Uncommitted_changes_before_Update_at_08-12-22_12_27_[Changes]1/Api.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Infrastructure/obj/Debug/net6.0/Infrastructure.assets.cache" />
+    <option name="AFTER_PATH" value="Infrastructure/obj/Debug/net6.0/Infrastructure.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/shelf/Uncommitted_changes_before_Update_at_08-12-22_12_27_[Changes]1/Infrastructure.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Api/obj/Debug/net6.0/apphost.exe" />
+    <option name="AFTER_PATH" value="Api/obj/Debug/net6.0/apphost.exe" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/shelf/Uncommitted_changes_before_Update_at_08-12-22_12_27_[Changes]1/apphost.exe" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Application/obj/Debug/net6.0/Application.csproj.CoreCompileInputs.cache" />
+    <option name="AFTER_PATH" value="Application/obj/Debug/net6.0/Application.csproj.CoreCompileInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/shelf/Uncommitted_changes_before_Update_at_08-12-22_12_27_[Changes]1/Application.csproj.CoreCompileInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Api/bin/Debug/net6.0/Api.exe" />
+    <option name="AFTER_PATH" value="Api/bin/Debug/net6.0/Api.exe" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/shelf/Uncommitted_changes_before_Update_at_08-12-22_12_27_[Changes]1/Api.exe" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Application/obj/Debug/net6.0/Application.assets.cache" />
+    <option name="AFTER_PATH" value="Application/obj/Debug/net6.0/Application.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/shelf/Uncommitted_changes_before_Update_at_08-12-22_12_27_[Changes]1/Application.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Api/obj/Debug/net6.0/Api.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="Api/obj/Debug/net6.0/Api.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/shelf/Uncommitted_changes_before_Update_at_08-12-22_12_27_[Changes]1/Api.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Infrastructure/obj/Debug/net6.0/Infrastructure.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="Infrastructure/obj/Debug/net6.0/Infrastructure.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/shelf/Uncommitted_changes_before_Update_at_08-12-22_12_27_[Changes]1/Infrastructure.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Domain/obj/Debug/net6.0/Domain.assets.cache" />
+    <option name="AFTER_PATH" value="Domain/obj/Debug/net6.0/Domain.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/shelf/Uncommitted_changes_before_Update_at_08-12-22_12_27_[Changes]1/Domain.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Api/obj/Debug/net6.0/Api.dll" />
+    <option name="AFTER_PATH" value="Api/obj/Debug/net6.0/Api.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/shelf/Uncommitted_changes_before_Update_at_08-12-22_12_27_[Changes]1/Api.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Infrastructure/obj/Debug/net6.0/Infrastructure.csproj.CoreCompileInputs.cache" />
+    <option name="AFTER_PATH" value="Infrastructure/obj/Debug/net6.0/Infrastructure.csproj.CoreCompileInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/shelf/Uncommitted_changes_before_Update_at_08-12-22_12_27_[Changes]1/Infrastructure.csproj.CoreCompileInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Api/obj/Debug/net6.0/Api.csproj.CoreCompileInputs.cache" />
+    <option name="AFTER_PATH" value="Api/obj/Debug/net6.0/Api.csproj.CoreCompileInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/shelf/Uncommitted_changes_before_Update_at_08-12-22_12_27_[Changes]1/Api.csproj.CoreCompileInputs.cache" />
+  </binary>
+</changelist>

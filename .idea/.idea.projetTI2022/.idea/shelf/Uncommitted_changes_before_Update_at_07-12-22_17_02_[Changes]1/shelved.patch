@@ -1,0 +1,327 @@
+Index: Application/obj/rider.project.restore.info
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Application/obj/rider.project.restore.info b/Application/obj/rider.project.restore.info
+--- a/Application/obj/rider.project.restore.info	
++++ b/Application/obj/rider.project.restore.info	
+@@ -1,1 +1,1 @@
+-16686752289086430
+\ No newline at end of file
++16693903314051862
+\ No newline at end of file
+Index: Application/obj/project.packagespec.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Application/obj/project.packagespec.json b/Application/obj/project.packagespec.json
+--- a/Application/obj/project.packagespec.json	
++++ b/Application/obj/project.packagespec.json	
+@@ -1,1 +1,1 @@
+-"restore":{"projectUniqueName":"C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Application\\Application.csproj","projectName":"Application","projectPath":"C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Application\\Application.csproj","outputPath":"C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Application\\obj\\","projectStyle":"PackageReference","fallbackFolders":["C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"],"originalTargetFrameworks":["net6.0"],"sources":{"https://api.nuget.org/v3/index.json":{}},"frameworks":{"net6.0":{"targetAlias":"net6.0","projectReferences":{"C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Domain\\Domain.csproj":{"projectPath":"C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Domain\\Domain.csproj"},"C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\Infrastructure.csproj":{"projectPath":"C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\Infrastructure.csproj"}}}},"warningProperties":{"warnAsError":["NU1605"]}}"frameworks":{"net6.0":{"targetAlias":"net6.0","imports":["net461","net462","net47","net471","net472","net48","net481"],"assetTargetFallback":true,"warn":true,"frameworkReferences":{"Microsoft.NETCore.App":{"privateAssets":"all"}},"runtimeIdentifierGraphPath":"C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"}}
+\ No newline at end of file
++"restore":{"projectUniqueName":"C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Application\\Application.csproj","projectName":"Application","projectPath":"C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Application\\Application.csproj","outputPath":"C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Application\\obj\\","projectStyle":"PackageReference","originalTargetFrameworks":["net6.0"],"sources":{"https://api.nuget.org/v3/index.json":{}},"frameworks":{"net6.0":{"targetAlias":"net6.0","projectReferences":{"C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj":{"projectPath":"C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj"},"C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj":{"projectPath":"C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj"}}}},"warningProperties":{"warnAsError":["NU1605"]}}"frameworks":{"net6.0":{"targetAlias":"net6.0","imports":["net461","net462","net47","net471","net472","net48","net481"],"assetTargetFallback":true,"warn":true,"frameworkReferences":{"Microsoft.NETCore.App":{"privateAssets":"all"}},"runtimeIdentifierGraphPath":"C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"}}
+\ No newline at end of file
+Index: Application/obj/project.assets.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Application/obj/project.assets.json b/Application/obj/project.assets.json
+--- a/Application/obj/project.assets.json	
++++ b/Application/obj/project.assets.json	
+@@ -3291,23 +3291,19 @@
+     ]
+   },
+   "packageFolders": {
+-    "C:\\Users\\ma-ri\\.nuget\\packages\\": {},
+-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
++    "C:\\Users\\kylli\\.nuget\\packages\\": {}
+   },
+   "project": {
+     "version": "1.0.0",
+     "restore": {
+-      "projectUniqueName": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Application\\Application.csproj",
++      "projectUniqueName": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Application\\Application.csproj",
+       "projectName": "Application",
+-      "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Application\\Application.csproj",
+-      "packagesPath": "C:\\Users\\ma-ri\\.nuget\\packages\\",
+-      "outputPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Application\\obj\\",
++      "projectPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Application\\Application.csproj",
++      "packagesPath": "C:\\Users\\kylli\\.nuget\\packages\\",
++      "outputPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Application\\obj\\",
+       "projectStyle": "PackageReference",
+-      "fallbackFolders": [
+-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+-      ],
+       "configFilePaths": [
+-        "C:\\Users\\ma-ri\\AppData\\Roaming\\NuGet\\NuGet.Config"
++        "C:\\Users\\kylli\\AppData\\Roaming\\NuGet\\NuGet.Config"
+       ],
+       "originalTargetFrameworks": [
+         "net6.0"
+@@ -3319,11 +3315,11 @@
+         "net6.0": {
+           "targetAlias": "net6.0",
+           "projectReferences": {
+-            "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Domain\\Domain.csproj": {
+-              "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Domain\\Domain.csproj"
++            "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj": {
++              "projectPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj"
+             },
+-            "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\Infrastructure.csproj": {
+-              "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\Infrastructure.csproj"
++            "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj": {
++              "projectPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj"
+             }
+           }
+         }
+@@ -3353,7 +3349,7 @@
+             "privateAssets": "all"
+           }
+         },
+-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
++        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+       }
+     }
+   }
+Index: Api/obj/staticwebassets.pack.sentinel
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Api/obj/staticwebassets.pack.sentinel b/Api/obj/staticwebassets.pack.sentinel
+--- a/Api/obj/staticwebassets.pack.sentinel	
++++ b/Api/obj/staticwebassets.pack.sentinel	
+@@ -8,3 +8,4 @@
+ 2.0
+ 2.0
+ 2.0
++2.0
+Index: Infrastructure/obj/rider.project.restore.info
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Infrastructure/obj/rider.project.restore.info b/Infrastructure/obj/rider.project.restore.info
+--- a/Infrastructure/obj/rider.project.restore.info	
++++ b/Infrastructure/obj/rider.project.restore.info	
+@@ -1,1 +1,1 @@
+-16686752289046292
+\ No newline at end of file
++16693903314003749
+\ No newline at end of file
+Index: Application/obj/Application.csproj.nuget.g.props
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Application/obj/Application.csproj.nuget.g.props b/Application/obj/Application.csproj.nuget.g.props
+--- a/Application/obj/Application.csproj.nuget.g.props	
++++ b/Application/obj/Application.csproj.nuget.g.props	
+@@ -5,13 +5,12 @@
+     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\ma-ri\.nuget\packages\;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
++    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\kylli\.nuget\packages\</NuGetPackageFolders>
+     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.3.0</NuGetToolVersion>
+   </PropertyGroup>
+   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+-    <SourceRoot Include="C:\Users\ma-ri\.nuget\packages\" />
+-    <SourceRoot Include="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\" />
++    <SourceRoot Include="C:\Users\kylli\.nuget\packages\" />
+   </ItemGroup>
+   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+     <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore\7.0.0-rc.2.22472.11\buildTransitive\net6.0\Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore\7.0.0-rc.2.22472.11\buildTransitive\net6.0\Microsoft.EntityFrameworkCore.props')" />
+Index: Infrastructure/obj/project.packagespec.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Infrastructure/obj/project.packagespec.json b/Infrastructure/obj/project.packagespec.json
+--- a/Infrastructure/obj/project.packagespec.json	
++++ b/Infrastructure/obj/project.packagespec.json	
+@@ -1,1 +1,1 @@
+-"restore":{"projectUniqueName":"C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\Infrastructure.csproj","projectName":"Infrastructure","projectPath":"C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\Infrastructure.csproj","outputPath":"C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\obj\\","projectStyle":"PackageReference","fallbackFolders":["C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"],"originalTargetFrameworks":["net6.0"],"sources":{"https://api.nuget.org/v3/index.json":{}},"frameworks":{"net6.0":{"targetAlias":"net6.0","projectReferences":{}}},"warningProperties":{"warnAsError":["NU1605"]}}"frameworks":{"net6.0":{"targetAlias":"net6.0","dependencies":{"AutoMapper":{"target":"Package","version":"[12.0.0, )"},"Microsoft.EntityFrameworkCore":{"target":"Package","version":"[7.0.0-rc.2.22472.11, )"},"Microsoft.EntityFrameworkCore.SqlServer":{"target":"Package","version":"[7.0.0-rc.2.22472.11, )"}},"imports":["net461","net462","net47","net471","net472","net48","net481"],"assetTargetFallback":true,"warn":true,"frameworkReferences":{"Microsoft.NETCore.App":{"privateAssets":"all"}},"runtimeIdentifierGraphPath":"C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"}}
+\ No newline at end of file
++"restore":{"projectUniqueName":"C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj","projectName":"Infrastructure","projectPath":"C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj","outputPath":"C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Infrastructure\\obj\\","projectStyle":"PackageReference","originalTargetFrameworks":["net6.0"],"sources":{"https://api.nuget.org/v3/index.json":{}},"frameworks":{"net6.0":{"targetAlias":"net6.0","projectReferences":{}}},"warningProperties":{"warnAsError":["NU1605"]}}"frameworks":{"net6.0":{"targetAlias":"net6.0","dependencies":{"AutoMapper":{"target":"Package","version":"[12.0.0, )"},"Microsoft.EntityFrameworkCore":{"target":"Package","version":"[7.0.0-rc.2.22472.11, )"},"Microsoft.EntityFrameworkCore.SqlServer":{"target":"Package","version":"[7.0.0-rc.2.22472.11, )"}},"imports":["net461","net462","net47","net471","net472","net48","net481"],"assetTargetFallback":true,"warn":true,"frameworkReferences":{"Microsoft.NETCore.App":{"privateAssets":"all"}},"runtimeIdentifierGraphPath":"C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"}}
+\ No newline at end of file
+Index: Application/obj/Application.csproj.nuget.dgspec.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Application/obj/Application.csproj.nuget.dgspec.json b/Application/obj/Application.csproj.nuget.dgspec.json
+--- a/Application/obj/Application.csproj.nuget.dgspec.json	
++++ b/Application/obj/Application.csproj.nuget.dgspec.json	
+@@ -1,23 +1,20 @@
+ {
+   "format": 1,
+   "restore": {
+-    "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Application\\Application.csproj": {}
++    "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Application\\Application.csproj": {}
+   },
+   "projects": {
+-    "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Application\\Application.csproj": {
++    "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Application\\Application.csproj": {
+       "version": "1.0.0",
+       "restore": {
+-        "projectUniqueName": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Application\\Application.csproj",
++        "projectUniqueName": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Application\\Application.csproj",
+         "projectName": "Application",
+-        "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Application\\Application.csproj",
+-        "packagesPath": "C:\\Users\\ma-ri\\.nuget\\packages\\",
+-        "outputPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Application\\obj\\",
++        "projectPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Application\\Application.csproj",
++        "packagesPath": "C:\\Users\\kylli\\.nuget\\packages\\",
++        "outputPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Application\\obj\\",
+         "projectStyle": "PackageReference",
+-        "fallbackFolders": [
+-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+-        ],
+         "configFilePaths": [
+-          "C:\\Users\\ma-ri\\AppData\\Roaming\\NuGet\\NuGet.Config"
++          "C:\\Users\\kylli\\AppData\\Roaming\\NuGet\\NuGet.Config"
+         ],
+         "originalTargetFrameworks": [
+           "net6.0"
+@@ -29,11 +26,11 @@
+           "net6.0": {
+             "targetAlias": "net6.0",
+             "projectReferences": {
+-              "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Domain\\Domain.csproj": {
+-                "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Domain\\Domain.csproj"
++              "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj": {
++                "projectPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj"
+               },
+-              "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\Infrastructure.csproj": {
+-                "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\Infrastructure.csproj"
++              "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj": {
++                "projectPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj"
+               }
+             }
+           }
+@@ -63,24 +60,21 @@
+               "privateAssets": "all"
+             }
+           },
+-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
++          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+         }
+       }
+     },
+-    "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Domain\\Domain.csproj": {
++    "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj": {
+       "version": "1.0.0",
+       "restore": {
+-        "projectUniqueName": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Domain\\Domain.csproj",
++        "projectUniqueName": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj",
+         "projectName": "Domain",
+-        "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Domain\\Domain.csproj",
+-        "packagesPath": "C:\\Users\\ma-ri\\.nuget\\packages\\",
+-        "outputPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Domain\\obj\\",
++        "projectPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj",
++        "packagesPath": "C:\\Users\\kylli\\.nuget\\packages\\",
++        "outputPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Domain\\obj\\",
+         "projectStyle": "PackageReference",
+-        "fallbackFolders": [
+-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+-        ],
+         "configFilePaths": [
+-          "C:\\Users\\ma-ri\\AppData\\Roaming\\NuGet\\NuGet.Config"
++          "C:\\Users\\kylli\\AppData\\Roaming\\NuGet\\NuGet.Config"
+         ],
+         "originalTargetFrameworks": [
+           "net6.0"
+@@ -119,24 +113,21 @@
+               "privateAssets": "all"
+             }
+           },
+-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
++          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+         }
+       }
+     },
+-    "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\Infrastructure.csproj": {
++    "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj": {
+       "version": "1.0.0",
+       "restore": {
+-        "projectUniqueName": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\Infrastructure.csproj",
++        "projectUniqueName": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj",
+         "projectName": "Infrastructure",
+-        "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\Infrastructure.csproj",
+-        "packagesPath": "C:\\Users\\ma-ri\\.nuget\\packages\\",
+-        "outputPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\obj\\",
++        "projectPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj",
++        "packagesPath": "C:\\Users\\kylli\\.nuget\\packages\\",
++        "outputPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Infrastructure\\obj\\",
+         "projectStyle": "PackageReference",
+-        "fallbackFolders": [
+-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+-        ],
+         "configFilePaths": [
+-          "C:\\Users\\ma-ri\\AppData\\Roaming\\NuGet\\NuGet.Config"
++          "C:\\Users\\kylli\\AppData\\Roaming\\NuGet\\NuGet.Config"
+         ],
+         "originalTargetFrameworks": [
+           "net6.0"
+@@ -189,7 +180,7 @@
+               "privateAssets": "all"
+             }
+           },
+-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
++          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+         }
+       }
+     }
+Index: Infrastructure/obj/project.assets.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Infrastructure/obj/project.assets.json b/Infrastructure/obj/project.assets.json
+--- a/Infrastructure/obj/project.assets.json	
++++ b/Infrastructure/obj/project.assets.json	
+@@ -3257,23 +3257,19 @@
+     ]
+   },
+   "packageFolders": {
+-    "C:\\Users\\ma-ri\\.nuget\\packages\\": {},
+-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
++    "C:\\Users\\kylli\\.nuget\\packages\\": {}
+   },
+   "project": {
+     "version": "1.0.0",
+     "restore": {
+-      "projectUniqueName": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\Infrastructure.csproj",
++      "projectUniqueName": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj",
+       "projectName": "Infrastructure",
+-      "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\Infrastructure.csproj",
+-      "packagesPath": "C:\\Users\\ma-ri\\.nuget\\packages\\",
+-      "outputPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\obj\\",
++      "projectPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj",
++      "packagesPath": "C:\\Users\\kylli\\.nuget\\packages\\",
++      "outputPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Infrastructure\\obj\\",
+       "projectStyle": "PackageReference",
+-      "fallbackFolders": [
+-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+-      ],
+       "configFilePaths": [
+-        "C:\\Users\\ma-ri\\AppData\\Roaming\\NuGet\\NuGet.Config"
++        "C:\\Users\\kylli\\AppData\\Roaming\\NuGet\\NuGet.Config"
+       ],
+       "originalTargetFrameworks": [
+         "net6.0"
+@@ -3326,7 +3322,7 @@
+             "privateAssets": "all"
+           }
+         },
+-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
++        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+       }
+     }
+   }

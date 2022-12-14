@@ -1,0 +1,64 @@
+<changelist name="Uncommitted_changes_before_Update_at_14-12-22_14_12_[Changes]" date="1671023556150" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/shelf/Uncommitted_changes_before_Update_at_14-12-22_14_12_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 14-12-22 14:12 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="Api/obj/Debug/net6.0/Api.pdb" />
+    <option name="AFTER_PATH" value="Api/obj/Debug/net6.0/Api.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/shelf/Uncommitted_changes_before_Update_at_14-12-22_14_12_[Changes]/Api.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Infrastructure/obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="Infrastructure/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/shelf/Uncommitted_changes_before_Update_at_14-12-22_14_12_[Changes]/project.nuget.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Application/obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="Application/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/shelf/Uncommitted_changes_before_Update_at_14-12-22_14_12_[Changes]/project.nuget1.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Domain/obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="Domain/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/shelf/Uncommitted_changes_before_Update_at_14-12-22_14_12_[Changes]/project.nuget2.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Api/obj/Debug/net6.0/refint/Api.dll" />
+    <option name="AFTER_PATH" value="Api/obj/Debug/net6.0/refint/Api.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/shelf/Uncommitted_changes_before_Update_at_14-12-22_14_12_[Changes]/Api.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Application/obj/Debug/net6.0/Application.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="Application/obj/Debug/net6.0/Application.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/shelf/Uncommitted_changes_before_Update_at_14-12-22_14_12_[Changes]/Application.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Api/obj/Debug/net6.0/Api.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="Api/obj/Debug/net6.0/Api.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/shelf/Uncommitted_changes_before_Update_at_14-12-22_14_12_[Changes]/Api.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Api/obj/Debug/net6.0/Api.dll" />
+    <option name="AFTER_PATH" value="Api/obj/Debug/net6.0/Api.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/shelf/Uncommitted_changes_before_Update_at_14-12-22_14_12_[Changes]/Api1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Api/obj/Debug/net6.0/ref/Api.dll" />
+    <option name="AFTER_PATH" value="Api/obj/Debug/net6.0/ref/Api.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/shelf/Uncommitted_changes_before_Update_at_14-12-22_14_12_[Changes]/Api2.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Api/bin/Debug/net6.0/Api.pdb" />
+    <option name="AFTER_PATH" value="Api/bin/Debug/net6.0/Api.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/shelf/Uncommitted_changes_before_Update_at_14-12-22_14_12_[Changes]/Api1.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Api/obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="Api/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/shelf/Uncommitted_changes_before_Update_at_14-12-22_14_12_[Changes]/project.nuget3.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Api/bin/Debug/net6.0/Api.dll" />
+    <option name="AFTER_PATH" value="Api/bin/Debug/net6.0/Api.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/shelf/Uncommitted_changes_before_Update_at_14-12-22_14_12_[Changes]/Api3.dll" />
+  </binary>
+</changelist>
