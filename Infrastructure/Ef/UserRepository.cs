@@ -21,6 +21,8 @@ public class UserRepository : IUserRepository
 
         return user;
     }
+    
+    
 
     public DbUser Create(string pseudo, string mail, string pass)
     {
@@ -30,5 +32,11 @@ public class UserRepository : IUserRepository
         context.Users.Add(user);
         context.SaveChanges();
         return user;
+    }
+
+    public IEnumerable<DbUser> FetchAll()
+    {
+        using var context = _contextProvider.NewContext();
+        return context.Users.ToList();
     }
 }

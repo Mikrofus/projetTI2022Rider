@@ -1,5 +1,6 @@
 ﻿using Application.UseCases.User;
 using Application.UseCases.User.Dto;
+using Infrastructure.Ef.DbEntities;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Api.Controllers.User;
@@ -10,14 +11,22 @@ public class UserController : ControllerBase
 {
     private readonly UseCaseCreateUser _useCaseCreateUser;
     private readonly UseCaseFetchUserById _useCaseFetchUserById;
+    private readonly UseCaseFetchAllUsers _useCaseFetchAllUser;
 
-    public UserController(UseCaseCreateUser useCaseCreateUser, UseCaseFetchUserById useCaseFetchUserById)
+    public UserController(UseCaseCreateUser useCaseCreateUser, UseCaseFetchUserById useCaseFetchUserById, UseCaseFetchAllUsers useCaseFetchAllUser)
     {
         _useCaseCreateUser = useCaseCreateUser;
         _useCaseFetchUserById = useCaseFetchUserById;
+        _useCaseFetchAllUser = useCaseFetchAllUser;
     }
 
-    
+    [HttpGet]
+    public ActionResult<IEnumerable<DtoOutputUser>> FetchAll()
+    {
+        return Ok(_useCaseFetchAllUser.Exectue());
+    }
+
+
     [HttpGet]
     [Route("{id:int}")]
     [ProducesResponseType(StatusCodes.Status200OK)]

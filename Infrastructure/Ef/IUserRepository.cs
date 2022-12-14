@@ -7,4 +7,6 @@ public interface IUserRepository
     DbUser FetchById(int id);
 
     DbUser Create(string pseudo, string mail, string pass);
+
+    IEnumerable<DbUser> FetchAll();
 }

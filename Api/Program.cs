@@ -26,6 +26,7 @@ builder.Services.AddScoped<ITokenService, TokenService>();
 // Use cases users
 builder.Services.AddScoped<UseCaseCreateUser>();
 builder.Services.AddScoped<UseCaseFetchUserById>();
+builder.Services.AddScoped<UseCaseFetchAllUsers>();
 
 // Use cases auctions
 builder.Services.AddScoped<UseCaseCreateAuction>();
