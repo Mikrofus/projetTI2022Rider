@@ -9,5 +9,6 @@ public class DtoOutputAuction
     public string Descri { get; set; }
     public string Img { get; set; }
     public float Price { get; set; }
+    public int IdUserBid { get; set; }
     public DateTime Timer { get; set; } 
 }

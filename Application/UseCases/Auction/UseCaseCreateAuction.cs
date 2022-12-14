@@ -17,7 +17,7 @@ public class UseCaseCreateAuction : IUseCaseWriter<DtoOutputAuction, DtoInputCre
     public DtoOutputAuction Execute(DtoInputCreateAuction input)
     {
         var dbAuction = _auctionRepository.Create(input.IdUser, input.Title, input.Category, input.Descri, input.Img,
-            input.Price, input.Timer);
+            input.Price,input.IdUserBid, input.Timer);
 
         return Mapper.GetInstance().Map<DtoOutputAuction>(dbAuction);
     }

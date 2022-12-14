@@ -19,5 +19,8 @@ public class DbAuction
     
     public decimal Price { get; set; }
     
+    [ForeignKey("IdUserBid")]
+    public int IdUserBid { get; set; }
+    
     public DateTime Timer { get; set; } 
 }

@@ -29,11 +29,11 @@ public class AuctionRepository : IAuctionRepository
         return auction;
     }
 
-    public DbAuction Create(int id_user, string title, string category, string descri, string img, decimal price, DateTime timer)
+    public DbAuction Create(int id_user, string title, string category, string descri, string img, decimal price, int id_user_bid, DateTime timer)
     {
         using var context = _contextProvider.NewContext();
         var auction = new DbAuction
-            {IdUser = id_user, Title = title, Category = category, Descri = descri, Img = img, Price = price, Timer = timer };
+            {IdUser = id_user, Title = title, Category = category, Descri = descri, Img = img, Price = price, IdUserBid = id_user_bid,Timer = timer };
         
         context.Auctions.Add(auction);
         context.SaveChanges();
