@@ -1,10 +1,12 @@
-﻿using Infrastructure.Ef.DTOs;
+﻿using Domain.Dto;
+using Domain.Dto.UserDTO;
+using Infrastructure.Ef.DTOs;
 
 namespace Infrastructure.Security;
 
 public class TokenService : ITokenService
 {
-    public string BuildToken(string key, string issuer, UserDTO user)
+    public string BuildToken(string key, string issuer, DtoOutputUser user)
     {
         throw new NotImplementedException();
     }

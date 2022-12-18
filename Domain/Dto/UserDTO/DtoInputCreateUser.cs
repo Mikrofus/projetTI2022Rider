@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Application.UseCases.User.Dto;
+namespace Domain.Dto.UserDTO;
 
 public class DtoInputCreateUser
 {

@@ -1,5 +1,6 @@
 ﻿using Application.UseCases.User;
-using Application.UseCases.User.Dto;
+using Domain.Dto;
+using Domain.Dto.UserDTO;
 using Infrastructure.Ef.DbEntities;
 using Infrastructure.Ef.DTOs;
 using Infrastructure.Security;

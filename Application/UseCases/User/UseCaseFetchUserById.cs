@@ -1,4 +1,5 @@
-﻿using Application.UseCases.User.Dto;
+﻿using Domain.Dto;
+using Domain.Dto.UserDTO;
 using Infrastructure.Ef;
 
 namespace Application.UseCases.User;

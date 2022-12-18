@@ -1,7 +1,8 @@
 ﻿using Application.UseCases.Auction.Dto;
-using Application.UseCases.User.Dto;
 using AutoMapper;
 using Domain;
+using Domain.Dto;
+using Domain.Dto.UserDTO;
 using Infrastructure.Ef.DbEntities;
 
 namespace Application;

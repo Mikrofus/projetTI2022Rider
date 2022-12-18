@@ -1,5 +1,6 @@
-﻿using Application.UseCases.User.Dto;
-using Application.UseCases.Utils;
+﻿using Application.UseCases.Utils;
+using Domain.Dto;
+using Domain.Dto.UserDTO;
 using Infrastructure.Ef;
 using Microsoft.EntityFrameworkCore.Storage.Internal;
 
