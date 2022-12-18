@@ -167,7 +167,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Domain\\Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
