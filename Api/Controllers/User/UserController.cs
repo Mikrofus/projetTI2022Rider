@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Api.Controllers.User;
 
 [ApiController]
-[Route("api/v1/users[controller]")]
+[Route("api/v1/users")]
 public class UserController : ControllerBase
 {
     private readonly UseCaseCreateUser _useCaseCreateUser;
