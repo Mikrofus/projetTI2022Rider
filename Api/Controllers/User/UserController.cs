@@ -75,17 +75,17 @@ public class UserController : ControllerBase
     {
         IEnumerable<DtoOutputUser> users = _useCaseFetchAllUser.Exectue();
         DtoOutputUser u1 = users
-            .Where(u => u.Pseudo.ToUpper().Equals(pseudo.ToUpper()) && u.Pass.ToUpper().Equals(password.ToUpper()))
+            .Where(u => u.Pseudo.ToUpper() == pseudo.ToUpper() && u.Pass.ToUpper() == password.ToUpper())
             .FirstOrDefault();
-        if (u1 != null)
-        {
+
+        if (u1 != null) {
             string key = _config["Jwt:Key"];
             string token = _tokenService.BuildToken(key, "Oui", u1);
             Response.Cookies.Append("Kyky le cookie", token);
             return Ok("Yeaaaah ça marche !");
+        } else {
+            return Problem("PasOk");
         }
-
-        return Problem("PasOk");
     }
 
     
