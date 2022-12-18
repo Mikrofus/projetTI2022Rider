@@ -28,10 +28,12 @@ builder.Services.AddScoped<UseCaseCreateUser>();
 builder.Services.AddScoped<UseCaseFetchUserById>();
 builder.Services.AddScoped<UseCaseFetchAllUsers>();
 
+
 // Use cases auctions
 builder.Services.AddScoped<UseCaseCreateAuction>();
 builder.Services.AddScoped<UseCaseFetchAuctionById>();
 builder.Services.AddScoped<UseCaseFetchAllAuctions>();
+builder.Services.AddScoped<UseCaseSetTopBidAuction>();
 
 builder.Services.AddCors(options =>
 {

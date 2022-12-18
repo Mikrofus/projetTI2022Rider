@@ -65,9 +65,12 @@ public class AuctionController : ControllerBase
 
 
     [HttpPut]
-    public ActionResult SetTopBid(DbAuction auction)
+    [Route("setTopBid")]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    public ActionResult<DtoOutputAuction> SetTopBid(DbAuction auction)
     {
-        return _useCaseSetTopBidAuction.Execute(auction) ? NoContent() : NotFound();
+        return _useCaseSetTopBidAuction.Execute(auction);
     }
 
 

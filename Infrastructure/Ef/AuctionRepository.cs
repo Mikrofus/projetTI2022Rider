@@ -40,20 +40,22 @@ public class AuctionRepository : IAuctionRepository
         return auction;
     }
 
-    public bool SetTopBid(DbAuction auction)
+    public DbAuction SetTopBid(DbAuction auction)
     {
         using var context = _contextProvider.NewContext();
         
         var entity = context.Auctions.FirstOrDefault(a => a.Id == auction.Id);
 
         if (entity == null)
-            return false;
+            return null;
 
         entity.Price = auction.Price;
         entity.IdUserBid = auction.IdUserBid;
 
-        return context.SaveChanges() == 1;
-        
+        context.SaveChanges();
+
+        return entity;
+
     }
 
 
