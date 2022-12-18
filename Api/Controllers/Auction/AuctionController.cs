@@ -1,6 +1,7 @@
 ﻿using Api.Controllers.User;
 using Application.UseCases.Auction;
 using Application.UseCases.Auction.Dto;
+using Infrastructure.Ef.DbEntities;
 using Microsoft.AspNetCore.Mvc;
 
 namespace projetTI2022.Controllers.Auction;
@@ -13,13 +14,15 @@ public class AuctionController : ControllerBase
     private readonly UseCaseCreateAuction _useCaseCreateAuction;
     private readonly UseCaseFetchAuctionById _useCaseFetchAuctionById;
     private readonly UseCaseFetchAllAuctions _useCaseFetchAllAuctions;
+    private readonly UseCaseSetTopBidAuction _useCaseSetTopBidAuction;
 
 
-    public AuctionController(UseCaseCreateAuction useCaseCreateAuction, UseCaseFetchAuctionById useCaseFetchAuctionById, UseCaseFetchAllAuctions useCaseFetchAllAuctions)
+    public AuctionController(UseCaseCreateAuction useCaseCreateAuction, UseCaseFetchAuctionById useCaseFetchAuctionById, UseCaseFetchAllAuctions useCaseFetchAllAuctions, UseCaseSetTopBidAuction useCaseSetTopBidAuction)
     {
         _useCaseCreateAuction = useCaseCreateAuction;
         _useCaseFetchAuctionById = useCaseFetchAuctionById;
         _useCaseFetchAllAuctions = useCaseFetchAllAuctions;
+        _useCaseSetTopBidAuction = useCaseSetTopBidAuction;
     }
 
     [HttpGet]
@@ -60,7 +63,17 @@ public class AuctionController : ControllerBase
         );
     }
 
-    
-    
-    
+
+    [HttpPut]
+    [Route("setTopBid")]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    public ActionResult<DtoOutputAuction> SetTopBid(DbAuction auction)
+    {
+        return _useCaseSetTopBidAuction.Execute(auction);
+    }
+
+
+
+
 }
