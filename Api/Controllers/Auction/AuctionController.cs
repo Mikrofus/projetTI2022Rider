@@ -53,6 +53,7 @@ public class AuctionController : ControllerBase
     
     
     [HttpPost]
+    [Route("create")]
     public ActionResult<DtoOutputAuction> Create(DtoInputCreateAuction dto)
     {
         var output = _useCaseCreateAuction.Execute(dto);
