@@ -1,5 +1,6 @@
 ﻿using Infrastructure.Ef.DbEntities;
 using Infrastructure.Utils;
+using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Ef;
 
@@ -56,6 +57,24 @@ public class AuctionRepository : IAuctionRepository
 
         return entity;
 
+    }
+
+    public DbAuction Delete(int id)
+    {
+        using var context = _contextProvider.NewContext();
+
+        var auction = FetchById(id);
+
+        try
+        {
+            context.Remove(auction);
+            context.SaveChanges();
+            return auction;
+        }
+        catch (DbUpdateConcurrencyException e)
+        {
+            return null;
+        }
     }
 
 

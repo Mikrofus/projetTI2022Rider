@@ -15,14 +15,16 @@ public class AuctionController : ControllerBase
     private readonly UseCaseFetchAuctionById _useCaseFetchAuctionById;
     private readonly UseCaseFetchAllAuctions _useCaseFetchAllAuctions;
     private readonly UseCaseSetTopBidAuction _useCaseSetTopBidAuction;
+    private readonly UseCaseDeleteAuction _useCaseDeleteAuction;
 
 
-    public AuctionController(UseCaseCreateAuction useCaseCreateAuction, UseCaseFetchAuctionById useCaseFetchAuctionById, UseCaseFetchAllAuctions useCaseFetchAllAuctions, UseCaseSetTopBidAuction useCaseSetTopBidAuction)
+    public AuctionController(UseCaseCreateAuction useCaseCreateAuction, UseCaseFetchAuctionById useCaseFetchAuctionById, UseCaseFetchAllAuctions useCaseFetchAllAuctions, UseCaseSetTopBidAuction useCaseSetTopBidAuction, UseCaseDeleteAuction useCaseDeleteAuction)
     {
         _useCaseCreateAuction = useCaseCreateAuction;
         _useCaseFetchAuctionById = useCaseFetchAuctionById;
         _useCaseFetchAllAuctions = useCaseFetchAllAuctions;
         _useCaseSetTopBidAuction = useCaseSetTopBidAuction;
+        _useCaseDeleteAuction = useCaseDeleteAuction;
     }
 
     [HttpGet]
@@ -72,6 +74,15 @@ public class AuctionController : ControllerBase
     public ActionResult<DtoOutputAuction> SetTopBid(DbAuction auction)
     {
         return _useCaseSetTopBidAuction.Execute(auction);
+    }
+    
+    [HttpDelete]
+    [Route("delete/{id:int}")]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    public ActionResult<DtoOutputAuction> Delete(int id)
+    {
+        return _useCaseDeleteAuction.Execute(id);
     }
 
 

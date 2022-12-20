@@ -13,4 +13,6 @@ public interface IAuctionRepository
 
     DbAuction SetTopBid(DbAuction auction);
 
+    DbAuction Delete(int id);
+
 }

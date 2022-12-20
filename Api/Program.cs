@@ -34,6 +34,7 @@ builder.Services.AddScoped<UseCaseCreateAuction>();
 builder.Services.AddScoped<UseCaseFetchAuctionById>();
 builder.Services.AddScoped<UseCaseFetchAllAuctions>();
 builder.Services.AddScoped<UseCaseSetTopBidAuction>();
+builder.Services.AddScoped<UseCaseDeleteAuction>();
 
 builder.Services.AddCors(options =>
 {
