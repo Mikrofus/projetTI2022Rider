@@ -68,12 +68,12 @@ public class AuctionController : ControllerBase
 
 
     [HttpPut]
-    [Route("setTopBid")]
+    [Route("setTopBid/{id:int}")]
     [ProducesResponseType(StatusCodes.Status204NoContent)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
-    public ActionResult<DtoOutputAuction> SetTopBid(DbAuction auction)
+    public ActionResult<DtoOutputAuction> SetTopBid(int id, decimal price, int idUserBid)
     {
-        return _useCaseSetTopBidAuction.Execute(auction);
+        return _useCaseSetTopBidAuction.Execute(id, price, idUserBid);
     }
     
     [HttpDelete]

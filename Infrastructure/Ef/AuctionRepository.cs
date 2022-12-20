@@ -41,17 +41,17 @@ public class AuctionRepository : IAuctionRepository
         return auction;
     }
 
-    public DbAuction SetTopBid(DbAuction auction)
+    public DbAuction SetTopBid(int id, decimal price, int idUserBid)
     {
         using var context = _contextProvider.NewContext();
         
-        var entity = context.Auctions.FirstOrDefault(a => a.Id == auction.Id);
+        var entity = context.Auctions.FirstOrDefault(a => a.Id == id);
 
         if (entity == null)
             return null;
 
-        entity.Price = auction.Price;
-        entity.IdUserBid = auction.IdUserBid;
+        entity.Price = price;
+        entity.IdUserBid = idUserBid;
 
         context.SaveChanges();
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "StN0TAe4HzvSS7ik805fHh9NqkY/ODjWqjQtTSPMN6j3CrCfxsjlvCqxP4yHHlgx9242tgmFLkjjCxi7DXoupg==",
+  "dgSpecHash": "BJCpZRjGjmsVhHVp1VK2GpCA/WBBYQMi+5ZyakNEx0UsxAL09lcgxhPc84R0IKBAa2KqnxsT7AKmXmCNoGPL1w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Api\\Api.csproj",
+  "projectFilePath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Api\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ma-ri\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\ma-ri\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",

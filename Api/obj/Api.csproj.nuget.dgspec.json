@@ -1,21 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Api\\Api.csproj": {}
+    "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Api\\Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Api\\Api.csproj": {
+    "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Api\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Api\\Api.csproj",
+        "projectUniqueName": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Api\\Api.csproj",
         "projectName": "Api",
-        "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Api\\Api.csproj",
+        "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Api\\Api.csproj",
         "packagesPath": "C:\\Users\\ma-ri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Api\\obj\\",
+        "outputPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Api\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\ma-ri\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
@@ -29,11 +26,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Application\\Application.csproj"
+              "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Application\\Application.csproj"
               },
-              "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -67,8 +64,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -80,22 +76,19 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Application\\Application.csproj": {
+    "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\ma-ri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Application\\obj\\",
+        "outputPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\ma-ri\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
@@ -109,11 +102,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Domain\\Domain.csproj"
+              "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -143,8 +136,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -153,22 +145,19 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Domain\\Domain.csproj": {
+    "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\ma-ri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\ma-ri\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
@@ -209,8 +198,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -219,22 +207,19 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\ma-ri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\ma-ri\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
@@ -248,8 +233,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Domain\\Domain.csproj"
+              "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj"
               }
             }
           }
@@ -291,8 +276,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -301,7 +285,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

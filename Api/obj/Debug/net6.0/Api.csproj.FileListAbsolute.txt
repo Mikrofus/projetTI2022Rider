@@ -324,3 +324,4 @@ C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\obj\Debug\net6.0\Api.genrunti
 C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\obj\Debug\net6.0\ref\Api.dll
 C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\ma-ri\RiderProjects\projetTI2022\Api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ma-ri\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

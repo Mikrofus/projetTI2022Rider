@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "azqq38eXEExVAxsKobZGSgS6dwZ/SVV01QtyTIjD7ceEbb9b1/0Lukb9NNH+ItAKwVMr4LePg1sBPfQfVrC9qA==",
+  "dgSpecHash": "/Bcc6qexEB8eaXDsJOdbf37FfrTc1T3atxjmpbkyEUHLqigxT4HV2bbQFmXBlyaeilk96hl9TrCGVJjvJtTvgA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ma-ri\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\ma-ri\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
