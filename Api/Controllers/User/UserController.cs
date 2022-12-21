@@ -114,11 +114,7 @@ public class UserController : ControllerBase
             signingCredentials: creds);
 
         var jwtToken = new JwtSecurityTokenHandler().WriteToken(token);
-        Response.Cookies.Append("SuperCookie", jwtToken, new CookieOptions()
-        {
-            HttpOnly = true,
-            Secure = true
-        });
+       
         return jwtToken;
     }
 
@@ -127,17 +123,23 @@ public class UserController : ControllerBase
     [HttpPost]
     [Route("login")]
     [ProducesResponseType(StatusCodes.Status200OK)]
-    public ActionResult ValidateToken(DtoLoginUser dto)
+    public ActionResult<DtoOutputUser> ValidateToken(DtoLoginUser dto)
     {
         var user = _useCaseLogin.Execute(dto);
         
         if (user != null)
         {
-            var token = this.CreateToken(user);
-            return Ok(token);
+            string token = this.CreateToken(user);
+            Response.Cookies.Append("SuperCookie", token, new CookieOptions()
+            {
+                HttpOnly = true,
+                Secure = true
+            });
+            
+            return Ok(user);
         }
-        var tokeng = this.CreateToken(user);
-        return Ok(tokeng);
+
+        return Unauthorized();
     }
     
     
