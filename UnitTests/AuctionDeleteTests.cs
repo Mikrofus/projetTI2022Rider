@@ -26,5 +26,18 @@ public class AuctionDeleteTests
         
         Assert.AreEqual(expected, result);
     }
+    
+    [Test]
+    public void TestExecuteWithInvalidId()
+    {
+        var input = -1;
+        
+        var result = _auctionService.Execute(input);
+        
+        var expected = null;
+        
+        Assert.AreEqual(expected, result);
+    }
+
 
 }
