@@ -1,4 +1,7 @@
-﻿using Application.UseCases.User;
+﻿using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
+using Application.UseCases.User;
 using Domain.Dto;
 using Domain.Dto.UserDTO;
 using Infrastructure.Ef.DbEntities;
@@ -6,6 +9,7 @@ using Infrastructure.Ef.DTOs;
 using Infrastructure.Security;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
 
 namespace Api.Controllers.User;
 
@@ -20,14 +24,16 @@ public class UserController : ControllerBase
     //JWT
     private readonly IConfiguration _config;
     private readonly ITokenService _tokenService;
-    private string _generatedToken = null;  
-    public UserController(UseCaseCreateUser useCaseCreateUser, UseCaseFetchUserById useCaseFetchUserById, UseCaseFetchAllUsers useCaseFetchAllUser, ITokenService tokenService, IConfiguration config)
+    private string _generatedToken = null;
+    private readonly UseCaseLogin _useCaseLogin;
+    public UserController(UseCaseCreateUser useCaseCreateUser, UseCaseFetchUserById useCaseFetchUserById, UseCaseFetchAllUsers useCaseFetchAllUser, ITokenService tokenService, IConfiguration config, UseCaseLogin useCaseLogin)
     {
         _useCaseCreateUser = useCaseCreateUser;
         _useCaseFetchUserById = useCaseFetchUserById;
         _useCaseFetchAllUser = useCaseFetchAllUser;
         _tokenService = tokenService;
         _config = config;
+        _useCaseLogin = useCaseLogin;
     }
 
     [HttpGet]
@@ -37,45 +43,45 @@ public class UserController : ControllerBase
     }
 
 
-    [HttpGet]
-    [Route("{id:int}")]
-    [ProducesResponseType(StatusCodes.Status200OK)]
-    [ProducesResponseType(StatusCodes.Status404NotFound)]
-    public ActionResult<DtoOutputUser> FetchById(int id)
-    {
-        try
-        {
-            return _useCaseFetchUserById.Execute(id);
-        }
-        catch (KeyNotFoundException e)
-        {
-            return NotFound(new
-            {
-                e.Message
-            });
-        }
-    }
-
-    [HttpPost]
-    [Route("create")]
-    public ActionResult<DtoOutputUser> Create(DtoInputCreateUser dto)
-    {
-        var output = _useCaseCreateUser.Execute(dto);
-        return CreatedAtAction(
-            nameof(FetchById),
-            new { id = output.Id},
-            output
-        );
-    }
+    // [HttpGet]
+    // [Route("{id:int}")]
+    // [ProducesResponseType(StatusCodes.Status200OK)]
+    // [ProducesResponseType(StatusCodes.Status404NotFound)]
+    // public ActionResult<DtoOutputUser> FetchById(int id)
+    // {
+    //     try
+    //     {
+    //         return _useCaseFetchUserById.Execute(id);
+    //     }
+    //     catch (KeyNotFoundException e)
+    //     {
+    //         return NotFound(new
+    //         {
+    //             e.Message
+    //         });
+    //     }
+    // }
+    //
+    // [HttpPost]
+    // [Route("create")]
+    // public ActionResult<DtoOutputUser> Create(DtoInputCreateUser dto)
+    // {
+    //     var output = _useCaseCreateUser.Execute(dto);
+    //     return CreatedAtAction(
+    //         nameof(FetchById),
+    //         new { id = output.Id},
+    //         output
+    //     );
+    // }
     
     [HttpGet]
     [Route("login")]
     [ProducesResponseType(StatusCodes.Status200OK)]
-    public ActionResult BuildToken(string pseudo, string password)
+    public ActionResult BuildToken(string mail, string password)
     {
         IEnumerable<DtoOutputUser> users = _useCaseFetchAllUser.Exectue();
         DtoOutputUser u1 = users
-            .Where(u => u.Pseudo.ToUpper() == pseudo.ToUpper() && u.Pass.ToUpper() == password.ToUpper())
+            .Where(u => u.Mail.ToUpper() == mail.ToUpper() && u.Pass.ToUpper() == password.ToUpper())
             .FirstOrDefault();
 
         if (u1 != null) {
@@ -87,17 +93,90 @@ public class UserController : ControllerBase
             return Problem("PasOk");
         }
     }
+    
+    private String CreateToken(DtoOutputUser user)
+    {
+        List<Claim> claims = new List<Claim>
+        {
+            new Claim("IdUser", user.Id.ToString()),
+            new Claim("Email", user.Mail)
+        };
+
+
+        var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
+        var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+        var token = new JwtSecurityToken(
+            issuer: _config["Jwt:Issuer"],
+            audience: _config["Jwt:Issuer"],
+            claims: claims,
+            expires: DateTime.Now.AddMinutes(30),
+            signingCredentials: creds);
+
+        var jwtToken = new JwtSecurityTokenHandler().WriteToken(token);
+        Response.Cookies.Append("SuperCookie", jwtToken, new CookieOptions()
+        {
+            HttpOnly = true,
+            Secure = true
+        });
+        return jwtToken;
+    }
 
     
     
     [HttpPost]
     [Route("login")]
-    [Authorize]
     [ProducesResponseType(StatusCodes.Status200OK)]
-    public ActionResult ValidateToken(string pseudo, string password)
+    public ActionResult ValidateToken(DtoLoginUser dto)
     {
-        return Ok("T'es accepté héhé!");
+        var user = _useCaseLogin.Execute(dto);
+        
+        if (user != null)
+        {
+            var token = this.CreateToken(user);
+            return Ok(token);
+        }
+        var tokeng = this.CreateToken(user);
+        return Ok(tokeng);
     }
+    
+    
+    [HttpGet]
+    [Authorize]
+    [Route("fetchById")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    public ActionResult<DtoOutputUser> FetchById()
+    {
+        try
+        {
+            var idUser = User.Claims.First(claim => claim.Type == "IdUser").Value;
+
+            return Ok(_useCaseFetchUserById.Execute(Convert.ToInt32(idUser)));
+        }
+        catch (KeyNotFoundException e)
+        {
+            return NotFound(new
+            {
+                e.Message
+            });
+        }
+    }
+    
+    
+    [HttpPost]
+    [Route("disconnect")]
+    [ProducesResponseType((StatusCodes.Status200OK))]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    public ActionResult Disconnect()
+    {
+        Response.Cookies.Delete("SuperCookie");
+        return Ok();
+    }
+
+    
+    
+
     
 
 }

@@ -35,6 +35,7 @@ builder.Services.AddScoped<UseCaseFetchAuctionById>();
 builder.Services.AddScoped<UseCaseFetchAllAuctions>();
 builder.Services.AddScoped<UseCaseSetTopBidAuction>();
 builder.Services.AddScoped<UseCaseDeleteAuction>();
+builder.Services.AddScoped<UseCaseLogin>();
 
 builder.Services.AddCors(options =>
 {
@@ -48,8 +49,15 @@ builder.Services.AddCors(options =>
 
 
 // Ajout du JWT
-builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
-{
+
+
+builder.Services.AddAuthentication(options =>
+    {
+        options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+        options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+    })
+    .AddJwtBearer(options =>
+    {
     options.TokenValidationParameters = new TokenValidationParameters
     {
         ValidateIssuer = true,
@@ -67,7 +75,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
     {
         OnMessageReceived = context =>
         {
-            context.Token = context.Request.Cookies["your-cookie"];
+            context.Token = context.Request.Cookies["SuperCookie"];
             return Task.CompletedTask;
         },
     };
@@ -86,6 +94,8 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseCors("Dev");
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 
