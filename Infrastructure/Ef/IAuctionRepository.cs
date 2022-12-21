@@ -11,7 +11,7 @@ public interface IAuctionRepository
 
     DbAuction Create(int id_user, string title, string category, string descri, string img, decimal price, int id_user_bid, DateTime timer);
 
-    DbAuction SetTopBid(DbAuction auction);
+    DbAuction SetTopBid(int id, decimal price, int idUserBid);
 
     DbAuction Delete(int id);
 

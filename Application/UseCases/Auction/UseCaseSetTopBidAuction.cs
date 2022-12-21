@@ -13,10 +13,10 @@ public class UseCaseSetTopBidAuction
         _auctionRepository = auctionRepository;
     }
 
-    public DtoOutputAuction Execute(DbAuction auction)
+    public DtoOutputAuction Execute(int id, decimal price, int idUserBid)
     {
 
-        var dbAuction  = _auctionRepository.SetTopBid(auction);
+        var dbAuction = _auctionRepository.SetTopBid(id, price, idUserBid);
         
         return Mapper.GetInstance().Map<DtoOutputAuction>(dbAuction);
 
