@@ -1692,19 +1692,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kylli\\.nuget\\packages\\": {}
+    "C:\\Users\\ma-ri\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj",
-      "packagesPath": "C:\\Users\\kylli\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Domain\\obj\\",
+      "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj",
+      "packagesPath": "C:\\Users\\ma-ri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\kylli\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ma-ri\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -1743,8 +1743,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -1753,7 +1752,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\kylli\\.dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

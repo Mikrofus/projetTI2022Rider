@@ -62,17 +62,17 @@ public class UserController : ControllerBase
     //     }
     // }
     //
-    // [HttpPost]
-    // [Route("create")]
-    // public ActionResult<DtoOutputUser> Create(DtoInputCreateUser dto)
-    // {
-    //     var output = _useCaseCreateUser.Execute(dto);
-    //     return CreatedAtAction(
-    //         nameof(FetchById),
-    //         new { id = output.Id},
-    //         output
-    //     );
-    // }
+    [HttpPost]
+    [Route("create")]
+    public ActionResult<DtoOutputUser> Create(DtoInputCreateUser dto)
+    {
+        var output = _useCaseCreateUser.Execute(dto);
+        return CreatedAtAction(
+            nameof(FetchById),
+            new { id = output.Id},
+            output
+        );
+    }
     
     [HttpGet]
     [Route("login")]
