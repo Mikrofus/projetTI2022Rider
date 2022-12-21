@@ -51,7 +51,7 @@ public class AuctionRepository : IAuctionRepository
             return null;
 
         entity.Price = price;
-        entity.IdUserBid = idUserBid;
+        entity.IdUserBid = 1;
 
         context.SaveChanges();
 
