@@ -32,6 +32,7 @@ public class AuctionRepository : IAuctionRepository
 
     public byte[] TransfoImage(string PathFile)
     {
+        
         using (FileStream stream = new FileStream(PathFile, FileMode.Open))
         {
             byte[] image = new byte[stream.Length];
@@ -40,13 +41,13 @@ public class AuctionRepository : IAuctionRepository
         }
     }
 
-    public DbAuction Create(int id_user, string title, string category, string descri, string pathImage, decimal price,
+    public DbAuction Create(int id_user, string title, string category, string descri, byte[] pathImage, decimal price,
         int id_user_bid, DateTime timer)
     {
         using var context = _contextProvider.NewContext();
         var auction = new DbAuction
         {
-            IdUser = id_user, Title = title, Category = category, Descri = descri, Img = TransfoImage(pathImage), Price = price,
+            IdUser = id_user, Title = title, Category = category, Descri = descri, Img = pathImage, Price = price,
             IdUserBid = id_user_bid, Timer = timer
         };
 
