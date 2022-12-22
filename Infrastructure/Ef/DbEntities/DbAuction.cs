@@ -15,7 +15,7 @@ public class DbAuction
     
     public string Descri { get; set; }
     
-    public string Img { get; set; }
+    public byte[] Img { get; set; }
     
     public decimal Price { get; set; }
     

@@ -62,6 +62,7 @@ public class UserController : ControllerBase
     //     }
     // }
     //
+    
     [HttpPost]
     [Route("create")]
     public ActionResult<DtoOutputUser> Create(DtoInputCreateUser dto)
@@ -73,27 +74,7 @@ public class UserController : ControllerBase
             output
         );
     }
-    
-    [HttpGet]
-    [Route("login")]
-    [ProducesResponseType(StatusCodes.Status200OK)]
-    public ActionResult BuildToken(string mail, string password)
-    {
-        IEnumerable<DtoOutputUser> users = _useCaseFetchAllUser.Exectue();
-        DtoOutputUser u1 = users
-            .Where(u => u.Mail.ToUpper() == mail.ToUpper() && u.Pass.ToUpper() == password.ToUpper())
-            .FirstOrDefault();
 
-        if (u1 != null) {
-            string key = _config["Jwt:Key"];
-            string token = _tokenService.BuildToken(key, "Oui", u1);
-            Response.Cookies.Append("Kyky le cookie", token);
-            return Ok("Yeaaaah ça marche !");
-        } else {
-            return Problem("PasOk");
-        }
-    }
-    
     private String CreateToken(DtoOutputUser user)
     {
         List<Claim> claims = new List<Claim>

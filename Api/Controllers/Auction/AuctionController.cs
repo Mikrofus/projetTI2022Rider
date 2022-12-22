@@ -4,11 +4,11 @@ using Application.UseCases.Auction.Dto;
 using Infrastructure.Ef.DbEntities;
 using Microsoft.AspNetCore.Mvc;
 
+
 namespace projetTI2022.Controllers.Auction;
 
 [ApiController]
 [Route("api/v1/auctions")]
-
 public class AuctionController : ControllerBase
 {
     private readonly UseCaseCreateAuction _useCaseCreateAuction;
@@ -18,7 +18,9 @@ public class AuctionController : ControllerBase
     private readonly UseCaseDeleteAuction _useCaseDeleteAuction;
 
 
-    public AuctionController(UseCaseCreateAuction useCaseCreateAuction, UseCaseFetchAuctionById useCaseFetchAuctionById, UseCaseFetchAllAuctions useCaseFetchAllAuctions, UseCaseSetTopBidAuction useCaseSetTopBidAuction, UseCaseDeleteAuction useCaseDeleteAuction)
+    public AuctionController(UseCaseCreateAuction useCaseCreateAuction, UseCaseFetchAuctionById useCaseFetchAuctionById,
+        UseCaseFetchAllAuctions useCaseFetchAllAuctions, UseCaseSetTopBidAuction useCaseSetTopBidAuction,
+        UseCaseDeleteAuction useCaseDeleteAuction)
     {
         _useCaseCreateAuction = useCaseCreateAuction;
         _useCaseFetchAuctionById = useCaseFetchAuctionById;
@@ -52,16 +54,16 @@ public class AuctionController : ControllerBase
             });
         }
     }
-    
-    
+
+
     [HttpPost]
     [Route("create")]
-    public ActionResult<DtoOutputAuction> Create(DtoInputCreateAuction dto)
+    public ActionResult <DtoOutputAuction> Create(DtoInputCreateAuction dto)
     {
         var output = _useCaseCreateAuction.Execute(dto);
         return CreatedAtAction(
             nameof(FetchById),
-            new { id = output.Id},
+            new { id = output.Id },
             output
         );
     }
@@ -75,7 +77,7 @@ public class AuctionController : ControllerBase
     {
         return _useCaseSetTopBidAuction.Execute(dto.Id, dto.Price, dto.IdUserBid);
     }
-    
+
     [HttpDelete]
     [Route("delete/{id:int}")]
     [ProducesResponseType(StatusCodes.Status204NoContent)]
@@ -84,8 +86,4 @@ public class AuctionController : ControllerBase
     {
         return _useCaseDeleteAuction.Execute(id);
     }
-
-
-
-
 }
