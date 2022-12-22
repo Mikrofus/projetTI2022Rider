@@ -9,15 +9,8 @@
     <projectFile profileName="projetTI2022">projetTI2022/projetTI2022.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86749c5d-4e9a-45bc-9da6-572b5c137e92" name="Changes" comment="Reglage problème">
+    <list default="true" id="86749c5d-4e9a-45bc-9da6-572b5c137e92" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Controllers/User/UserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Controllers/User/UserController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net6.0/Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api/bin/Debug/net6.0/Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net6.0/Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api/bin/Debug/net6.0/Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/obj/Debug/net6.0/Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Debug/net6.0/Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/obj/Debug/net6.0/Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Debug/net6.0/Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/staticwebassets.pack.sentinel" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,10 +35,6 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c07532ecad6affb99bea9097d852faca34a95966fae4d18186c722a075cfda/ActionResult.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c3f347194c2ded55dfd0195cb3b785a32b1818de597af373e3d64d4c1605b8a/DbContextOptionsBuilder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f9daeeaab8409865442b5e80e634dc64dae9a14892fe81e0f17b46f51b2c48f8/DbSet.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/ma-ri/RiderProjects/projetTI2022Rider/Api/Controllers/User/UserController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/ma-ri/RiderProjects/projetTI2022Rider/Api/Controllers/User/UserController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/ma-ri/RiderProjects/projetTI2022Rider/Api/Controllers/User/UserController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/ma-ri/RiderProjects/projetTI2022Rider/Api/Controllers/User/UserController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Domain/Dto/UserDTO/DtoOutputUser.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -156,7 +145,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="80cbc233-3b24-4662-8015-a58839570ba6" name="Changes" comment="" />
+      <changelist id="86749c5d-4e9a-45bc-9da6-572b5c137e92" name="Changes" comment="" />
       <created>1667483241189</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -185,6 +174,7 @@
       <workItem from="1671626094515" duration="1312000" />
       <workItem from="1671634102140" duration="1163000" />
       <workItem from="1671650605860" duration="8972000" />
+      <workItem from="1671703498535" duration="3401000" />
     </task>
     <task id="LOCAL-00001" summary="Rename Api">
       <created>1667488254970</created>
@@ -284,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671660251427</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Commit on sait jamais">
+      <created>1671664902943</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1671664902943</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,6 +329,7 @@
     <MESSAGE value="Réglage soucis" />
     <MESSAGE value="Changement auction" />
     <MESSAGE value="Reglage problème" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reglage problème" />
+    <MESSAGE value="Commit on sait jamais" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit on sait jamais" />
   </component>
 </project>
