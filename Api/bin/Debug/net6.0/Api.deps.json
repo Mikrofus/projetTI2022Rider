@@ -12,7 +12,8 @@
           "Infrastructure": "1.0.0",
           "Microsoft.AspNetCore.Authentication": "2.2.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.0",
-          "Swashbuckle.AspNetCore": "6.2.3"
+          "Swashbuckle.AspNetCore": "6.2.3",
+          "System.IO": "4.3.0"
         },
         "runtime": {
           "Api.dll": {}

@@ -30,21 +30,45 @@ public class AuctionRepository : IAuctionRepository
         return auction;
     }
 
-    public DbAuction Create(int id_user, string title, string category, string descri, string img, decimal price, int id_user_bid, DateTime timer)
+    public byte[] TransfoImage(string PathFile)
+    {
+        using (FileStream stream = new FileStream(PathFile, FileMode.Open))
+        {
+            byte[] image = new byte[stream.Length];
+            stream.Read(image, 0, (int)stream.Length);
+            return image;
+        }
+    }
+
+    public DbAuction Create(int id_user, string title, string category, string descri, string pathImage, decimal price,
+        int id_user_bid, DateTime timer)
     {
         using var context = _contextProvider.NewContext();
         var auction = new DbAuction
-            {IdUser = id_user, Title = title, Category = category, Descri = descri, Img = img, Price = price, IdUserBid = id_user_bid,Timer = timer };
-        
+        {
+            IdUser = id_user, Title = title, Category = category, Descri = descri, Img = TransfoImage(@"D:\Photo\SKI 2022\Ski Saint-Sorlin d_Arves 2022\IMG20220204134323.jpg"), Price = price,
+            IdUserBid = id_user_bid, Timer = timer
+        };
+
         context.Auctions.Add(auction);
         context.SaveChanges();
         return auction;
+
+
+        //
+        // using var context = _contextProvider.NewContext();
+        // var auction = new DbAuction
+        //     {IdUser = id_user, Title = title, Category = category, Descri = descri, Img = img, Price = price, IdUserBid = id_user_bid,Timer = timer };
+        //
+        // context.Auctions.Add(auction);
+        // context.SaveChanges();
+        // return auction;
     }
 
     public DbAuction SetTopBid(int id, decimal price, int idUserBid)
     {
         using var context = _contextProvider.NewContext();
-        
+
         var entity = context.Auctions.FirstOrDefault(a => a.Id == id);
 
         if (entity == null)
@@ -56,7 +80,6 @@ public class AuctionRepository : IAuctionRepository
         context.SaveChanges();
 
         return entity;
-
     }
 
     public DbAuction Delete(int id)
@@ -76,6 +99,4 @@ public class AuctionRepository : IAuctionRepository
             return null;
         }
     }
-
-
 }

@@ -9,7 +9,7 @@ public interface IAuctionRepository
 
     DbAuction FetchById(int id);
 
-    DbAuction Create(int id_user, string title, string category, string descri, string img, decimal price, int id_user_bid, DateTime timer);
+    DbAuction Create(int id_user, string title, string category, string descri, string pathImg, decimal price, int id_user_bid, DateTime timer);
 
     DbAuction SetTopBid(int id, decimal price, int idUserBid);
 
