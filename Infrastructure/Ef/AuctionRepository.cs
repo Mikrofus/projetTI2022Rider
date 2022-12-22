@@ -46,7 +46,7 @@ public class AuctionRepository : IAuctionRepository
         using var context = _contextProvider.NewContext();
         var auction = new DbAuction
         {
-            IdUser = id_user, Title = title, Category = category, Descri = descri, Img = TransfoImage(@"D:\Photo\SKI 2022\Ski Saint-Sorlin d_Arves 2022\IMG20220204134323.jpg"), Price = price,
+            IdUser = id_user, Title = title, Category = category, Descri = descri, Img = TransfoImage(pathImage), Price = price,
             IdUserBid = id_user_bid, Timer = timer
         };
 
