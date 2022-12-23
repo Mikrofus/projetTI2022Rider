@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Utilisateur\\RiderProjects\\projetTI2022Rider\\unitTest\\unitTest.csproj": {}
+    "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\unitTest\\unitTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Utilisateur\\RiderProjects\\projetTI2022Rider\\Api\\Api.csproj": {
+    "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Api\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Utilisateur\\RiderProjects\\projetTI2022Rider\\Api\\Api.csproj",
+        "projectUniqueName": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Api\\Api.csproj",
         "projectName": "Api",
-        "projectPath": "C:\\Users\\Utilisateur\\RiderProjects\\projetTI2022Rider\\Api\\Api.csproj",
-        "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Utilisateur\\RiderProjects\\projetTI2022Rider\\Api\\obj\\",
+        "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Api\\Api.csproj",
+        "packagesPath": "C:\\Users\\ma-ri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ma-ri\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -26,11 +26,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Utilisateur\\RiderProjects\\projetTI2022Rider\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Utilisateur\\RiderProjects\\projetTI2022Rider\\Application\\Application.csproj"
+              "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Application\\Application.csproj"
               },
-              "C:\\Users\\Utilisateur\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Utilisateur\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -60,6 +60,10 @@
             "System.IO": {
               "target": "Package",
               "version": "[4.3.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.25.1, )"
             }
           },
           "imports": [
@@ -68,8 +72,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -81,21 +84,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Utilisateur\\RiderProjects\\projetTI2022Rider\\Application\\Application.csproj": {
+    "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Utilisateur\\RiderProjects\\projetTI2022Rider\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\Utilisateur\\RiderProjects\\projetTI2022Rider\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Utilisateur\\RiderProjects\\projetTI2022Rider\\Application\\obj\\",
+        "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\ma-ri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ma-ri\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -107,11 +110,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Utilisateur\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Utilisateur\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj"
+              "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\Utilisateur\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Utilisateur\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -141,8 +144,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -151,21 +153,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Utilisateur\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj": {
+    "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Utilisateur\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Utilisateur\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Utilisateur\\RiderProjects\\projetTI2022Rider\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\ma-ri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ma-ri\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -204,8 +206,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -214,21 +215,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Utilisateur\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Utilisateur\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\Utilisateur\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Utilisateur\\RiderProjects\\projetTI2022Rider\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\ma-ri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ma-ri\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -240,8 +241,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Utilisateur\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Utilisateur\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj"
+              "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj"
               }
             }
           }
@@ -283,8 +284,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -293,21 +293,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Utilisateur\\RiderProjects\\projetTI2022Rider\\unitTest\\unitTest.csproj": {
+    "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\unitTest\\unitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Utilisateur\\RiderProjects\\projetTI2022Rider\\unitTest\\unitTest.csproj",
+        "projectUniqueName": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\unitTest\\unitTest.csproj",
         "projectName": "unitTest",
-        "projectPath": "C:\\Users\\Utilisateur\\RiderProjects\\projetTI2022Rider\\unitTest\\unitTest.csproj",
-        "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Utilisateur\\RiderProjects\\projetTI2022Rider\\unitTest\\obj\\",
+        "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\unitTest\\unitTest.csproj",
+        "packagesPath": "C:\\Users\\ma-ri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\unitTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ma-ri\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -319,14 +319,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Utilisateur\\RiderProjects\\projetTI2022Rider\\Api\\Api.csproj": {
-                "projectPath": "C:\\Users\\Utilisateur\\RiderProjects\\projetTI2022Rider\\Api\\Api.csproj"
+              "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Api\\Api.csproj": {
+                "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Api\\Api.csproj"
               },
-              "C:\\Users\\Utilisateur\\RiderProjects\\projetTI2022Rider\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Utilisateur\\RiderProjects\\projetTI2022Rider\\Application\\Application.csproj"
+              "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Application\\Application.csproj"
               },
-              "C:\\Users\\Utilisateur\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Utilisateur\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj"
+              "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj"
               }
             }
           }
@@ -368,8 +368,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -378,7 +377,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

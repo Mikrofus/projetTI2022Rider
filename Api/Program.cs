@@ -48,6 +48,7 @@ builder.Services.AddCors(options =>
             .AllowAnyMethod()
             .AllowAnyHeader()
             .AllowCredentials();
+            
         policyBuilder.WithOrigins("http://localhost:4200")
             .AllowAnyMethod()
             .AllowAnyHeader()
@@ -100,10 +101,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+app.UseCors("Dev");
 
 app.UseHttpsRedirection();
 
-app.UseCors("Dev");
+app.UseCookiePolicy();
 
 app.UseAuthentication();
 

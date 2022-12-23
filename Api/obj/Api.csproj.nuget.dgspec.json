@@ -60,6 +60,10 @@
             "System.IO": {
               "target": "Package",
               "version": "[4.3.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.25.1, )"
             }
           },
           "imports": [

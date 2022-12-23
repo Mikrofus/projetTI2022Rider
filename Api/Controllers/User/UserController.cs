@@ -10,6 +10,7 @@ using Infrastructure.Security;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
 
 namespace Api.Controllers.User;
 
@@ -104,7 +105,7 @@ public class UserController : ControllerBase
     [HttpPost]
     [Route("login")]
     [ProducesResponseType(StatusCodes.Status200OK)]
-    public ActionResult<DtoOutputUser> ValidateToken(DtoLoginUser dto)
+    public IActionResult ValidateToken(DtoLoginUser dto)
     {
         var user = _useCaseLogin.Execute(dto);
         
@@ -116,8 +117,8 @@ public class UserController : ControllerBase
                 HttpOnly = true,
                 Secure = true
             });
-            
-            return Ok(user);
+
+            return Ok(token);
         }
 
         return Unauthorized();
