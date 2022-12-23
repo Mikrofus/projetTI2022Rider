@@ -54,16 +54,7 @@ public class AuctionRepository : IAuctionRepository
         context.Auctions.Add(auction);
         context.SaveChanges();
         return auction;
-
-
-        //
-        // using var context = _contextProvider.NewContext();
-        // var auction = new DbAuction
-        //     {IdUser = id_user, Title = title, Category = category, Descri = descri, Img = img, Price = price, IdUserBid = id_user_bid,Timer = timer };
-        //
-        // context.Auctions.Add(auction);
-        // context.SaveChanges();
-        // return auction;
+        
     }
 
     public DbAuction SetTopBid(int id, decimal price, int idUserBid)

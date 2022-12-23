@@ -1,4 +1,5 @@
 ﻿using Application.UseCases.Auction.Dto;
+using Application.UseCases.AuctionPayment.Dto;
 using AutoMapper;
 using Domain;
 using Domain.Dto;
@@ -30,6 +31,11 @@ public static class Mapper
             cfg.CreateMap<Auction, DtoOutputAuction>();
             cfg.CreateMap<DbAuction, DtoOutputAuction>();
             cfg.CreateMap<DbAuction, Auction>();
+            
+            // Auction Payment
+            cfg.CreateMap<AuctionPayment, DtoOutPutAuctionPayment>();
+            cfg.CreateMap<DbAuctionPayment, DtoOutPutAuctionPayment>();
+            cfg.CreateMap<DbAuctionPayment, AuctionPayment>();
 
         });
         return new AutoMapper.Mapper(config);

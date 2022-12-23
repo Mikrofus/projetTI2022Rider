@@ -1,6 +1,7 @@
 using System.Text;
 using Api;
 using Application.UseCases.Auction;
+using Application.UseCases.AuctionPayment;
 using Application.UseCases.User;
 using Infrastructure.Ef;
 using Infrastructure.Security;
@@ -41,6 +42,11 @@ builder.Services.AddScoped<UseCaseSetTopBidAuction>();
 builder.Services.AddScoped<UseCaseDeleteAuction>();
 builder.Services.AddScoped<UseCaseLogin>();
 
+// Use cases auctions payment
+builder.Services.AddScoped<UseCaseFetchAllAuctionPayment>();
+builder.Services.AddScoped<UseCaseCreateAuctionPayment>();
+builder.Services.AddScoped<UseCaseFetchByIdAuctionPayment>();
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("Dev", policyBuilder =>
@@ -54,6 +60,7 @@ builder.Services.AddCors(options =>
             .AllowAnyMethod()
             .AllowAnyHeader()
             .AllowCredentials();
+        
     });
 });
 

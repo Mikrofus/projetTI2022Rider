@@ -17,7 +17,32 @@ public class AuctionPaymentRepository : IAuctionPaymentRepository
         var context = _contextProvider.NewContext();
         
         return context.AuctionPayments.Where(u => u.IdUser == id).ToList();
+        
 
+    }
 
+    public DbAuctionPayment Create(int id_user, string title, decimal price)
+    {
+        using var context = _contextProvider.NewContext();
+        
+   
+        var auction = new DbAuctionPayment
+        {
+            IdUser = id_user, Title = title, Price = price
+        };
+
+        context.AuctionPayments.Add(auction);
+        context.SaveChanges();
+        return auction;
+    }
+    
+    public DbAuctionPayment FetchById(int id)
+    {
+        using var context = _contextProvider.NewContext();
+        var auctionPayment = context.AuctionPayments.FirstOrDefault(u => u.Id == id);
+
+        if (auctionPayment == null) throw new KeyNotFoundException($"L'enchère n'a pas été trouvée");
+
+        return auctionPayment;
     }
 }

@@ -54,7 +54,7 @@ public class ProjetTI2022Context : DbContext
 
         modelBuilder.Entity <DbAuctionPayment>(entity =>
         {
-            entity.ToTable("auction");
+            entity.ToTable("auctionPayment");
             entity.HasKey(a => a.Id);
             entity.Property(a => a.Id).HasColumnName("id");
             entity.Property(a => a.IdUser).HasColumnName(("id_user"));
