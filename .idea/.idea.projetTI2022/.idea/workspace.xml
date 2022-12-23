@@ -9,24 +9,7 @@
     <projectFile profileName="projetTI2022">projetTI2022/projetTI2022.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86749c5d-4e9a-45bc-9da6-572b5c137e92" name="Changes" comment="Auction Payment">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Controllers/User/UserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Controllers/User/UserController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net6.0/Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api/bin/Debug/net6.0/Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net6.0/Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api/bin/Debug/net6.0/Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net6.0/Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api/bin/Debug/net6.0/Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net6.0/Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api/bin/Debug/net6.0/Infrastructure.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/obj/Debug/net6.0/Api.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Debug/net6.0/Api.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/obj/Debug/net6.0/Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Debug/net6.0/Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/obj/Debug/net6.0/Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Debug/net6.0/Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/staticwebassets.pack.sentinel" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net6.0/Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net6.0/Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net6.0/Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net6.0/Infrastructure.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/bin/Debug/net6.0/Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/bin/Debug/net6.0/Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/bin/Debug/net6.0/Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/bin/Debug/net6.0/Infrastructure.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/net6.0/Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/net6.0/Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/net6.0/Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/net6.0/Infrastructure.pdb" afterDir="false" />
-    </list>
+    <list default="true" id="86749c5d-4e9a-45bc-9da6-572b5c137e92" name="Changes" comment="On sait jamais" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -198,7 +181,7 @@
       <workItem from="1671634102140" duration="1163000" />
       <workItem from="1671650605860" duration="8972000" />
       <workItem from="1671703498535" duration="3401000" />
-      <workItem from="1671793382187" duration="15455000" />
+      <workItem from="1671793382187" duration="16079000" />
     </task>
     <task id="LOCAL-00001" summary="Rename Api">
       <created>1667488254970</created>
@@ -347,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671802578890</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="On sait jamais">
+      <created>1671819332927</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1671819332927</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,9 +388,9 @@
     <MESSAGE value="Commit on sait jamais" />
     <MESSAGE value="Jsp" />
     <MESSAGE value="Login avec le JWT" />
-    <MESSAGE value="On sait jamais" />
     <MESSAGE value="u" />
     <MESSAGE value="Auction Payment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Auction Payment" />
+    <MESSAGE value="On sait jamais" />
+    <option name="LAST_COMMIT_MESSAGE" value="On sait jamais" />
   </component>
 </project>
