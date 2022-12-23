@@ -33,4 +33,180 @@ public class UnitTestAuction
         Assert.AreEqual(3, auction.IdUserBid);
         Assert.AreEqual(new DateTime(2022, 1, 1), auction.Timer);
     }
+    
+    [Test]
+    public void TestHasManyWords_LongDescription()
+    {
+        // Arrange
+        var auction = new Auction();
+        auction.Descri = "This is a description that contains a large number of words. It has more than 10 words, and it is very long and detailed. It covers multiple topics and provides a lot of information.";
+
+        // Act
+        var hasManyWords = auction.HasManyWords();
+
+        // Assert
+        Assert.IsTrue(hasManyWords);
+    }
+    
+    [Test]
+    public void TestIsValidDateTime_ValidDateTime()
+    {
+        // Arrange
+        var auction = new Auction()
+        {
+            Timer = DateTime.Now
+        };
+
+        // Act
+        var isValid = auction.IsValidDateTime();
+
+        // Assert
+        Assert.IsTrue(isValid);
+    }
+    
+    [Test]
+    public void TestIsValidDateTime_InvalidDateTime()
+    {
+        // Arrange
+        var auction = new Auction()
+        {
+            Timer = default(DateTime)
+        };
+
+        // Act
+        var isValid = auction.IsValidDateTime();
+
+        // Assert
+        Assert.IsFalse(isValid);
+    }
+    
+    [Test]
+    public void TestIsValidDateTime_MaxDateTime()
+    {
+        // Arrange
+        var auction = new Auction()
+        {
+            Timer = DateTime.MaxValue
+        };
+
+        // Act
+        var isValid = auction.IsValidDateTime();
+
+        // Assert
+        Assert.IsTrue(isValid);
+    }
+    
+    [Test]
+    public void TestIsValidDateTime_DateTimeWithTime()
+    {
+        // Arrange
+        var auction = new Auction()
+        {
+            Timer = new DateTime(2020, 01, 01, 12, 00, 00)
+        };
+
+        // Act
+        var isValid = auction.IsValidDateTime();
+
+        // Assert
+        Assert.IsTrue(isValid);
+    }
+    
+    [Test]
+    public void TestIsValidPrice_ValidPrice()
+    {
+        // Arrange
+        var auction = new Auction()
+        {
+            Price = 100.0f
+        };
+
+        // Act
+        var isValid = auction.IsValidPrice();
+
+        // Assert
+        Assert.IsTrue(isValid);
+    }
+    
+    [Test]
+    public void TestIsValidPrice_PriceTooLow()
+    {
+        // Arrange
+        var auction = new Auction()
+        {
+            Price = 0.0f
+        };
+
+        // Act
+        var isValid = auction.IsValidPrice();
+
+        // Assert
+        Assert.IsFalse(isValid);
+    }
+    
+    [Test]
+    public void TestIsValidPrice_PriceTooHigh()
+    {
+        // Arrange
+        var auction = new Auction()
+        {
+            Price = 100001.0f
+        };
+
+        // Act
+        var isValid = auction.IsValidPrice();
+
+        // Assert
+        Assert.IsFalse(isValid);
+    }
+    
+    [Test]
+    public void TestIsValidTitle_ValidTitle()
+    {
+        // Arrange
+        var auction = new Auction()
+        {
+            Title = "My Auction"
+        };
+
+        // Act
+        var isValid = auction.IsValidTitle();
+
+        // Assert
+        Assert.IsTrue(isValid);
+    }
+
+    [Test]
+    public void TestIsValidTitle_EmptyTitle()
+    {
+        // Arrange
+        var auction = new Auction()
+        {
+            Title = string.Empty
+        };
+
+        // Act
+        var isValid = auction.IsValidTitle();
+
+        // Assert
+        Assert.IsFalse(isValid);
+    }
+
+    [Test]
+    public void TestIsValidTitle_NullTitle()
+    {
+        // Arrange
+        var auction = new Auction()
+        {
+            Title = null
+        };
+
+        // Act
+        var isValid = auction.IsValidTitle();
+
+        // Assert
+        Assert.IsFalse(isValid);
+    }
+    
+    
 }
