@@ -1,0 +1,783 @@
+Index: .idea/.idea.projetTI2022/.idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.idea.projetTI2022/.idea/workspace.xml b/.idea/.idea.projetTI2022/.idea/workspace.xml
+--- a/.idea/.idea.projetTI2022/.idea/workspace.xml	
++++ b/.idea/.idea.projetTI2022/.idea/workspace.xml	
+@@ -8,10 +8,8 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="80cbc233-3b24-4662-8015-a58839570ba6" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/.name" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/shelf/Uncommitted_changes_before_Checkout_at_03-11-22_16_11__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/shelf/Uncommitted_changes_before_Checkout_at_03-11-22_16_11__Changes_.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Api/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api/appsettings.Development.json" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net6.0/Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api/bin/Debug/net6.0/Api.dll" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net6.0/Api.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Api/bin/Debug/net6.0/Api.exe" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net6.0/Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api/bin/Debug/net6.0/Api.pdb" afterDir="false" />
+@@ -21,7 +19,6 @@
+       <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net6.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api/bin/Debug/net6.0/Domain.pdb" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net6.0/Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api/bin/Debug/net6.0/Infrastructure.dll" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net6.0/Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api/bin/Debug/net6.0/Infrastructure.pdb" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net6.0/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api/bin/Debug/net6.0/appsettings.Development.json" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/Api/obj/Api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Api.csproj.nuget.dgspec.json" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/Api/obj/Api.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Api.csproj.nuget.g.props" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/Api/obj/Debug/net6.0/Api.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Debug/net6.0/Api.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+@@ -101,7 +98,7 @@
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="develop" />
++        <entry key="$PROJECT_DIR$" value="master" />
+       </map>
+     </option>
+     <option name="RESET_MODE" value="HARD" />
+Index: Infrastructure/obj/Infrastructure.csproj.nuget.g.props
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Infrastructure/obj/Infrastructure.csproj.nuget.g.props b/Infrastructure/obj/Infrastructure.csproj.nuget.g.props
+--- a/Infrastructure/obj/Infrastructure.csproj.nuget.g.props	
++++ b/Infrastructure/obj/Infrastructure.csproj.nuget.g.props	
+@@ -5,13 +5,12 @@
+     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\ma-ri\.nuget\packages\;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
++    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\kylli\.nuget\packages\</NuGetPackageFolders>
+     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.3.0</NuGetToolVersion>
+   </PropertyGroup>
+   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+-    <SourceRoot Include="C:\Users\ma-ri\.nuget\packages\" />
+-    <SourceRoot Include="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\" />
++    <SourceRoot Include="C:\Users\kylli\.nuget\packages\" />
+   </ItemGroup>
+   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+     <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore\7.0.0-rc.2.22472.11\buildTransitive\net6.0\Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore\7.0.0-rc.2.22472.11\buildTransitive\net6.0\Microsoft.EntityFrameworkCore.props')" />
+Index: Infrastructure/obj/Infrastructure.csproj.nuget.dgspec.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Infrastructure/obj/Infrastructure.csproj.nuget.dgspec.json b/Infrastructure/obj/Infrastructure.csproj.nuget.dgspec.json
+--- a/Infrastructure/obj/Infrastructure.csproj.nuget.dgspec.json	
++++ b/Infrastructure/obj/Infrastructure.csproj.nuget.dgspec.json	
+@@ -1,23 +1,20 @@
+ {
+   "format": 1,
+   "restore": {
+-    "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\Infrastructure.csproj": {}
++    "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj": {}
+   },
+   "projects": {
+-    "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\Infrastructure.csproj": {
++    "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj": {
+       "version": "1.0.0",
+       "restore": {
+-        "projectUniqueName": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\Infrastructure.csproj",
++        "projectUniqueName": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj",
+         "projectName": "Infrastructure",
+-        "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\Infrastructure.csproj",
+-        "packagesPath": "C:\\Users\\ma-ri\\.nuget\\packages\\",
+-        "outputPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\obj\\",
++        "projectPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj",
++        "packagesPath": "C:\\Users\\kylli\\.nuget\\packages\\",
++        "outputPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Infrastructure\\obj\\",
+         "projectStyle": "PackageReference",
+-        "fallbackFolders": [
+-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+-        ],
+         "configFilePaths": [
+-          "C:\\Users\\ma-ri\\AppData\\Roaming\\NuGet\\NuGet.Config"
++          "C:\\Users\\kylli\\AppData\\Roaming\\NuGet\\NuGet.Config"
+         ],
+         "originalTargetFrameworks": [
+           "net6.0"
+@@ -70,7 +67,7 @@
+               "privateAssets": "all"
+             }
+           },
+-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
++          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+         }
+       }
+     }
+Index: Domain/obj/Debug/net6.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Domain/obj/Debug/net6.0/Domain.GeneratedMSBuildEditorConfig.editorconfig b/Domain/obj/Debug/net6.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+--- a/Domain/obj/Debug/net6.0/Domain.GeneratedMSBuildEditorConfig.editorconfig	
++++ b/Domain/obj/Debug/net6.0/Domain.GeneratedMSBuildEditorConfig.editorconfig	
+@@ -7,4 +7,4 @@
+ build_property.PlatformNeutralAssembly = 
+ build_property._SupportedPlatformList = Linux,macOS,Windows
+ build_property.RootNamespace = Domain
+-build_property.ProjectDir = C:\Users\ma-ri\RiderProjects\projetTI2022\Domain\
++build_property.ProjectDir = C:\Users\kylli\RiderProjects\projetTI2022Rider\Domain\
+Index: Domain/obj/Debug/net6.0/Domain.csproj.FileListAbsolute.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Domain/obj/Debug/net6.0/Domain.csproj.FileListAbsolute.txt b/Domain/obj/Debug/net6.0/Domain.csproj.FileListAbsolute.txt
+--- a/Domain/obj/Debug/net6.0/Domain.csproj.FileListAbsolute.txt	
++++ b/Domain/obj/Debug/net6.0/Domain.csproj.FileListAbsolute.txt	
+@@ -22,3 +22,15 @@
+ C:\Users\ma-ri\RiderProjects\projetTI2022\Domain\obj\Debug\net6.0\refint\Domain.dll
+ C:\Users\ma-ri\RiderProjects\projetTI2022\Domain\obj\Debug\net6.0\Domain.pdb
+ C:\Users\ma-ri\RiderProjects\projetTI2022\Domain\obj\Debug\net6.0\ref\Domain.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Domain\bin\Debug\net6.0\Domain.deps.json
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Domain\bin\Debug\net6.0\Domain.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Domain\bin\Debug\net6.0\Domain.pdb
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Domain\obj\Debug\net6.0\Domain.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Domain\obj\Debug\net6.0\refint\Domain.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Domain\obj\Debug\net6.0\Domain.pdb
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Domain\obj\Debug\net6.0\ref\Domain.dll
+Index: Api/obj/Api.csproj.nuget.dgspec.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Api/obj/Api.csproj.nuget.dgspec.json b/Api/obj/Api.csproj.nuget.dgspec.json
+--- a/Api/obj/Api.csproj.nuget.dgspec.json	
++++ b/Api/obj/Api.csproj.nuget.dgspec.json	
+@@ -1,23 +1,20 @@
+ {
+   "format": 1,
+   "restore": {
+-    "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Api\\Api.csproj": {}
++    "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Api\\Api.csproj": {}
+   },
+   "projects": {
+-    "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Api\\Api.csproj": {
++    "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Api\\Api.csproj": {
+       "version": "1.0.0",
+       "restore": {
+-        "projectUniqueName": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Api\\Api.csproj",
++        "projectUniqueName": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Api\\Api.csproj",
+         "projectName": "Api",
+-        "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Api\\Api.csproj",
+-        "packagesPath": "C:\\Users\\ma-ri\\.nuget\\packages\\",
+-        "outputPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Api\\obj\\",
++        "projectPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Api\\Api.csproj",
++        "packagesPath": "C:\\Users\\kylli\\.nuget\\packages\\",
++        "outputPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Api\\obj\\",
+         "projectStyle": "PackageReference",
+-        "fallbackFolders": [
+-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+-        ],
+         "configFilePaths": [
+-          "C:\\Users\\ma-ri\\AppData\\Roaming\\NuGet\\NuGet.Config"
++          "C:\\Users\\kylli\\AppData\\Roaming\\NuGet\\NuGet.Config"
+         ],
+         "originalTargetFrameworks": [
+           "net6.0"
+@@ -29,11 +26,11 @@
+           "net6.0": {
+             "targetAlias": "net6.0",
+             "projectReferences": {
+-              "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Application\\Application.csproj": {
+-                "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Application\\Application.csproj"
++              "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Application\\Application.csproj": {
++                "projectPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Application\\Application.csproj"
+               },
+-              "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\Infrastructure.csproj": {
+-                "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\Infrastructure.csproj"
++              "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj": {
++                "projectPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj"
+               }
+             }
+           }
+@@ -72,24 +69,21 @@
+               "privateAssets": "all"
+             }
+           },
+-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
++          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+         }
+       }
+     },
+-    "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Application\\Application.csproj": {
++    "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Application\\Application.csproj": {
+       "version": "1.0.0",
+       "restore": {
+-        "projectUniqueName": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Application\\Application.csproj",
++        "projectUniqueName": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Application\\Application.csproj",
+         "projectName": "Application",
+-        "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Application\\Application.csproj",
+-        "packagesPath": "C:\\Users\\ma-ri\\.nuget\\packages\\",
+-        "outputPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Application\\obj\\",
++        "projectPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Application\\Application.csproj",
++        "packagesPath": "C:\\Users\\kylli\\.nuget\\packages\\",
++        "outputPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Application\\obj\\",
+         "projectStyle": "PackageReference",
+-        "fallbackFolders": [
+-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+-        ],
+         "configFilePaths": [
+-          "C:\\Users\\ma-ri\\AppData\\Roaming\\NuGet\\NuGet.Config"
++          "C:\\Users\\kylli\\AppData\\Roaming\\NuGet\\NuGet.Config"
+         ],
+         "originalTargetFrameworks": [
+           "net6.0"
+@@ -101,11 +95,11 @@
+           "net6.0": {
+             "targetAlias": "net6.0",
+             "projectReferences": {
+-              "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Domain\\Domain.csproj": {
+-                "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Domain\\Domain.csproj"
++              "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj": {
++                "projectPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj"
+               },
+-              "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\Infrastructure.csproj": {
+-                "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\Infrastructure.csproj"
++              "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj": {
++                "projectPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj"
+               }
+             }
+           }
+@@ -135,24 +129,21 @@
+               "privateAssets": "all"
+             }
+           },
+-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
++          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+         }
+       }
+     },
+-    "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Domain\\Domain.csproj": {
++    "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj": {
+       "version": "1.0.0",
+       "restore": {
+-        "projectUniqueName": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Domain\\Domain.csproj",
++        "projectUniqueName": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj",
+         "projectName": "Domain",
+-        "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Domain\\Domain.csproj",
+-        "packagesPath": "C:\\Users\\ma-ri\\.nuget\\packages\\",
+-        "outputPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Domain\\obj\\",
++        "projectPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj",
++        "packagesPath": "C:\\Users\\kylli\\.nuget\\packages\\",
++        "outputPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Domain\\obj\\",
+         "projectStyle": "PackageReference",
+-        "fallbackFolders": [
+-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+-        ],
+         "configFilePaths": [
+-          "C:\\Users\\ma-ri\\AppData\\Roaming\\NuGet\\NuGet.Config"
++          "C:\\Users\\kylli\\AppData\\Roaming\\NuGet\\NuGet.Config"
+         ],
+         "originalTargetFrameworks": [
+           "net6.0"
+@@ -191,24 +182,21 @@
+               "privateAssets": "all"
+             }
+           },
+-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
++          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+         }
+       }
+     },
+-    "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\Infrastructure.csproj": {
++    "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj": {
+       "version": "1.0.0",
+       "restore": {
+-        "projectUniqueName": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\Infrastructure.csproj",
++        "projectUniqueName": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj",
+         "projectName": "Infrastructure",
+-        "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\Infrastructure.csproj",
+-        "packagesPath": "C:\\Users\\ma-ri\\.nuget\\packages\\",
+-        "outputPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\obj\\",
++        "projectPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj",
++        "packagesPath": "C:\\Users\\kylli\\.nuget\\packages\\",
++        "outputPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Infrastructure\\obj\\",
+         "projectStyle": "PackageReference",
+-        "fallbackFolders": [
+-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+-        ],
+         "configFilePaths": [
+-          "C:\\Users\\ma-ri\\AppData\\Roaming\\NuGet\\NuGet.Config"
++          "C:\\Users\\kylli\\AppData\\Roaming\\NuGet\\NuGet.Config"
+         ],
+         "originalTargetFrameworks": [
+           "net6.0"
+@@ -261,7 +249,7 @@
+               "privateAssets": "all"
+             }
+           },
+-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
++          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+         }
+       }
+     }
+Index: Api/obj/Api.csproj.nuget.g.props
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Api/obj/Api.csproj.nuget.g.props b/Api/obj/Api.csproj.nuget.g.props
+--- a/Api/obj/Api.csproj.nuget.g.props	
++++ b/Api/obj/Api.csproj.nuget.g.props	
+@@ -5,13 +5,12 @@
+     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\ma-ri\.nuget\packages\;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
++    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\kylli\.nuget\packages\</NuGetPackageFolders>
+     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.3.0</NuGetToolVersion>
+   </PropertyGroup>
+   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+-    <SourceRoot Include="C:\Users\ma-ri\.nuget\packages\" />
+-    <SourceRoot Include="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\" />
++    <SourceRoot Include="C:\Users\kylli\.nuget\packages\" />
+   </ItemGroup>
+   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+     <Import Project="$(NuGetPackageRoot)microsoft.extensions.apidescription.server\3.0.0\build\Microsoft.Extensions.ApiDescription.Server.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.apidescription.server\3.0.0\build\Microsoft.Extensions.ApiDescription.Server.props')" />
+@@ -19,6 +18,6 @@
+     <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore\7.0.0-rc.2.22472.11\buildTransitive\net6.0\Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore\7.0.0-rc.2.22472.11\buildTransitive\net6.0\Microsoft.EntityFrameworkCore.props')" />
+   </ImportGroup>
+   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+-    <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">C:\Users\ma-ri\.nuget\packages\microsoft.extensions.apidescription.server\3.0.0</PkgMicrosoft_Extensions_ApiDescription_Server>
++    <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">C:\Users\kylli\.nuget\packages\microsoft.extensions.apidescription.server\3.0.0</PkgMicrosoft_Extensions_ApiDescription_Server>
+   </PropertyGroup>
+ </Project>
+\ No newline at end of file
+Index: Api/obj/project.packagespec.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Api/obj/project.packagespec.json b/Api/obj/project.packagespec.json
+--- a/Api/obj/project.packagespec.json	
++++ b/Api/obj/project.packagespec.json	
+@@ -1,1 +1,1 @@
+-"restore":{"projectUniqueName":"C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Api\\Api.csproj","projectName":"Api","projectPath":"C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Api\\Api.csproj","outputPath":"C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Api\\obj\\","projectStyle":"PackageReference","fallbackFolders":["C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"],"originalTargetFrameworks":["net6.0"],"sources":{"https://api.nuget.org/v3/index.json":{}},"frameworks":{"net6.0":{"targetAlias":"net6.0","projectReferences":{"C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Application\\Application.csproj":{"projectPath":"C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Application\\Application.csproj"},"C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\Infrastructure.csproj":{"projectPath":"C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\Infrastructure.csproj"}}}},"warningProperties":{"warnAsError":["NU1605"]}}"frameworks":{"net6.0":{"targetAlias":"net6.0","dependencies":{"Swashbuckle.AspNetCore":{"target":"Package","version":"[6.2.3, )"}},"imports":["net461","net462","net47","net471","net472","net48","net481"],"assetTargetFallback":true,"warn":true,"frameworkReferences":{"Microsoft.AspNetCore.App":{"privateAssets":"none"},"Microsoft.NETCore.App":{"privateAssets":"all"}},"runtimeIdentifierGraphPath":"C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"}}
+\ No newline at end of file
++"restore":{"projectUniqueName":"C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Api\\Api.csproj","projectName":"Api","projectPath":"C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Api\\Api.csproj","outputPath":"C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Api\\obj\\","projectStyle":"PackageReference","originalTargetFrameworks":["net6.0"],"sources":{"https://api.nuget.org/v3/index.json":{}},"frameworks":{"net6.0":{"targetAlias":"net6.0","projectReferences":{"C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Application\\Application.csproj":{"projectPath":"C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Application\\Application.csproj"},"C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj":{"projectPath":"C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj"}}}},"warningProperties":{"warnAsError":["NU1605"]}}"frameworks":{"net6.0":{"targetAlias":"net6.0","dependencies":{"Swashbuckle.AspNetCore":{"target":"Package","version":"[6.2.3, )"}},"imports":["net461","net462","net47","net471","net472","net48","net481"],"assetTargetFallback":true,"warn":true,"frameworkReferences":{"Microsoft.AspNetCore.App":{"privateAssets":"none"},"Microsoft.NETCore.App":{"privateAssets":"all"}},"runtimeIdentifierGraphPath":"C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"}}
+\ No newline at end of file
+Index: Api/obj/rider.project.restore.info
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Api/obj/rider.project.restore.info b/Api/obj/rider.project.restore.info
+--- a/Api/obj/rider.project.restore.info	
++++ b/Api/obj/rider.project.restore.info	
+@@ -1,1 +1,1 @@
+-16686752289066362
+\ No newline at end of file
++16693903314031339
+\ No newline at end of file
+Index: Domain/obj/rider.project.restore.info
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Domain/obj/rider.project.restore.info b/Domain/obj/rider.project.restore.info
+--- a/Domain/obj/rider.project.restore.info	
++++ b/Domain/obj/rider.project.restore.info	
+@@ -1,1 +1,1 @@
+-16686752286178899
+\ No newline at end of file
++16693903308588193
+\ No newline at end of file
+Index: Domain/obj/project.packagespec.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Domain/obj/project.packagespec.json b/Domain/obj/project.packagespec.json
+--- a/Domain/obj/project.packagespec.json	
++++ b/Domain/obj/project.packagespec.json	
+@@ -1,1 +1,1 @@
+-"restore":{"projectUniqueName":"C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Domain\\Domain.csproj","projectName":"Domain","projectPath":"C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Domain\\Domain.csproj","outputPath":"C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Domain\\obj\\","projectStyle":"PackageReference","fallbackFolders":["C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"],"originalTargetFrameworks":["net6.0"],"sources":{"https://api.nuget.org/v3/index.json":{}},"frameworks":{"net6.0":{"targetAlias":"net6.0","projectReferences":{}}},"warningProperties":{"warnAsError":["NU1605"]}}"frameworks":{"net6.0":{"targetAlias":"net6.0","imports":["net461","net462","net47","net471","net472","net48","net481"],"assetTargetFallback":true,"warn":true,"frameworkReferences":{"Microsoft.NETCore.App":{"privateAssets":"all"}},"runtimeIdentifierGraphPath":"C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"}}
+\ No newline at end of file
++"restore":{"projectUniqueName":"C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj","projectName":"Domain","projectPath":"C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj","outputPath":"C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Domain\\obj\\","projectStyle":"PackageReference","originalTargetFrameworks":["net6.0"],"sources":{"https://api.nuget.org/v3/index.json":{}},"frameworks":{"net6.0":{"targetAlias":"net6.0","projectReferences":{}}},"warningProperties":{"warnAsError":["NU1605"]}}"frameworks":{"net6.0":{"targetAlias":"net6.0","imports":["net461","net462","net47","net471","net472","net48","net481"],"assetTargetFallback":true,"warn":true,"frameworkReferences":{"Microsoft.NETCore.App":{"privateAssets":"all"}},"runtimeIdentifierGraphPath":"C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"}}
+\ No newline at end of file
+Index: Api/obj/project.assets.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Api/obj/project.assets.json b/Api/obj/project.assets.json
+--- a/Api/obj/project.assets.json	
++++ b/Api/obj/project.assets.json	
+@@ -3523,23 +3523,19 @@
+     ]
+   },
+   "packageFolders": {
+-    "C:\\Users\\ma-ri\\.nuget\\packages\\": {},
+-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
++    "C:\\Users\\kylli\\.nuget\\packages\\": {}
+   },
+   "project": {
+     "version": "1.0.0",
+     "restore": {
+-      "projectUniqueName": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Api\\Api.csproj",
++      "projectUniqueName": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Api\\Api.csproj",
+       "projectName": "Api",
+-      "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Api\\Api.csproj",
+-      "packagesPath": "C:\\Users\\ma-ri\\.nuget\\packages\\",
+-      "outputPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Api\\obj\\",
++      "projectPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Api\\Api.csproj",
++      "packagesPath": "C:\\Users\\kylli\\.nuget\\packages\\",
++      "outputPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Api\\obj\\",
+       "projectStyle": "PackageReference",
+-      "fallbackFolders": [
+-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+-      ],
+       "configFilePaths": [
+-        "C:\\Users\\ma-ri\\AppData\\Roaming\\NuGet\\NuGet.Config"
++        "C:\\Users\\kylli\\AppData\\Roaming\\NuGet\\NuGet.Config"
+       ],
+       "originalTargetFrameworks": [
+         "net6.0"
+@@ -3551,11 +3547,11 @@
+         "net6.0": {
+           "targetAlias": "net6.0",
+           "projectReferences": {
+-            "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Application\\Application.csproj": {
+-              "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Application\\Application.csproj"
++            "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Application\\Application.csproj": {
++              "projectPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Application\\Application.csproj"
+             },
+-            "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\Infrastructure.csproj": {
+-              "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Infrastructure\\Infrastructure.csproj"
++            "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj": {
++              "projectPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Infrastructure\\Infrastructure.csproj"
+             }
+           }
+         }
+@@ -3594,7 +3590,7 @@
+             "privateAssets": "all"
+           }
+         },
+-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
++        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+       }
+     }
+   }
+Index: Domain/obj/project.assets.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Domain/obj/project.assets.json b/Domain/obj/project.assets.json
+--- a/Domain/obj/project.assets.json	
++++ b/Domain/obj/project.assets.json	
+@@ -8,23 +8,19 @@
+     "net6.0": []
+   },
+   "packageFolders": {
+-    "C:\\Users\\ma-ri\\.nuget\\packages\\": {},
+-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
++    "C:\\Users\\kylli\\.nuget\\packages\\": {}
+   },
+   "project": {
+     "version": "1.0.0",
+     "restore": {
+-      "projectUniqueName": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Domain\\Domain.csproj",
++      "projectUniqueName": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj",
+       "projectName": "Domain",
+-      "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Domain\\Domain.csproj",
+-      "packagesPath": "C:\\Users\\ma-ri\\.nuget\\packages\\",
+-      "outputPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Domain\\obj\\",
++      "projectPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj",
++      "packagesPath": "C:\\Users\\kylli\\.nuget\\packages\\",
++      "outputPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Domain\\obj\\",
+       "projectStyle": "PackageReference",
+-      "fallbackFolders": [
+-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+-      ],
+       "configFilePaths": [
+-        "C:\\Users\\ma-ri\\AppData\\Roaming\\NuGet\\NuGet.Config"
++        "C:\\Users\\kylli\\AppData\\Roaming\\NuGet\\NuGet.Config"
+       ],
+       "originalTargetFrameworks": [
+         "net6.0"
+@@ -63,7 +59,7 @@
+             "privateAssets": "all"
+           }
+         },
+-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
++        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+       }
+     }
+   }
+Index: Application/obj/Debug/net6.0/Application.GeneratedMSBuildEditorConfig.editorconfig
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Application/obj/Debug/net6.0/Application.GeneratedMSBuildEditorConfig.editorconfig b/Application/obj/Debug/net6.0/Application.GeneratedMSBuildEditorConfig.editorconfig
+--- a/Application/obj/Debug/net6.0/Application.GeneratedMSBuildEditorConfig.editorconfig	
++++ b/Application/obj/Debug/net6.0/Application.GeneratedMSBuildEditorConfig.editorconfig	
+@@ -7,4 +7,4 @@
+ build_property.PlatformNeutralAssembly = 
+ build_property._SupportedPlatformList = Linux,macOS,Windows
+ build_property.RootNamespace = Application
+-build_property.ProjectDir = C:\Users\ma-ri\RiderProjects\projetTI2022\Application\
++build_property.ProjectDir = C:\Users\kylli\RiderProjects\projetTI2022Rider\Application\
+Index: Domain/obj/Domain.csproj.nuget.g.props
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Domain/obj/Domain.csproj.nuget.g.props b/Domain/obj/Domain.csproj.nuget.g.props
+--- a/Domain/obj/Domain.csproj.nuget.g.props	
++++ b/Domain/obj/Domain.csproj.nuget.g.props	
+@@ -5,12 +5,11 @@
+     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\ma-ri\.nuget\packages\;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
++    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\kylli\.nuget\packages\</NuGetPackageFolders>
+     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.3.0</NuGetToolVersion>
+   </PropertyGroup>
+   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+-    <SourceRoot Include="C:\Users\ma-ri\.nuget\packages\" />
+-    <SourceRoot Include="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\" />
++    <SourceRoot Include="C:\Users\kylli\.nuget\packages\" />
+   </ItemGroup>
+ </Project>
+\ No newline at end of file
+Index: Domain/obj/Domain.csproj.nuget.dgspec.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Domain/obj/Domain.csproj.nuget.dgspec.json b/Domain/obj/Domain.csproj.nuget.dgspec.json
+--- a/Domain/obj/Domain.csproj.nuget.dgspec.json	
++++ b/Domain/obj/Domain.csproj.nuget.dgspec.json	
+@@ -1,23 +1,20 @@
+ {
+   "format": 1,
+   "restore": {
+-    "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Domain\\Domain.csproj": {}
++    "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj": {}
+   },
+   "projects": {
+-    "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Domain\\Domain.csproj": {
++    "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj": {
+       "version": "1.0.0",
+       "restore": {
+-        "projectUniqueName": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Domain\\Domain.csproj",
++        "projectUniqueName": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj",
+         "projectName": "Domain",
+-        "projectPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Domain\\Domain.csproj",
+-        "packagesPath": "C:\\Users\\ma-ri\\.nuget\\packages\\",
+-        "outputPath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022\\Domain\\obj\\",
++        "projectPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Domain\\Domain.csproj",
++        "packagesPath": "C:\\Users\\kylli\\.nuget\\packages\\",
++        "outputPath": "C:\\Users\\kylli\\RiderProjects\\projetTI2022Rider\\Domain\\obj\\",
+         "projectStyle": "PackageReference",
+-        "fallbackFolders": [
+-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+-        ],
+         "configFilePaths": [
+-          "C:\\Users\\ma-ri\\AppData\\Roaming\\NuGet\\NuGet.Config"
++          "C:\\Users\\kylli\\AppData\\Roaming\\NuGet\\NuGet.Config"
+         ],
+         "originalTargetFrameworks": [
+           "net6.0"
+@@ -56,7 +53,7 @@
+               "privateAssets": "all"
+             }
+           },
+-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
++          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+         }
+       }
+     }
+Index: Application/obj/Debug/net6.0/Application.csproj.FileListAbsolute.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Application/obj/Debug/net6.0/Application.csproj.FileListAbsolute.txt b/Application/obj/Debug/net6.0/Application.csproj.FileListAbsolute.txt
+--- a/Application/obj/Debug/net6.0/Application.csproj.FileListAbsolute.txt	
++++ b/Application/obj/Debug/net6.0/Application.csproj.FileListAbsolute.txt	
+@@ -32,3 +32,20 @@
+ C:\Users\ma-ri\RiderProjects\projetTI2022\Application\obj\Debug\net6.0\refint\Application.dll
+ C:\Users\ma-ri\RiderProjects\projetTI2022\Application\obj\Debug\net6.0\Application.pdb
+ C:\Users\ma-ri\RiderProjects\projetTI2022\Application\obj\Debug\net6.0\ref\Application.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Application\bin\Debug\net6.0\Application.deps.json
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Application\bin\Debug\net6.0\Application.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Application\bin\Debug\net6.0\Application.pdb
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Application\bin\Debug\net6.0\Domain.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Application\bin\Debug\net6.0\Infrastructure.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Application\bin\Debug\net6.0\Domain.pdb
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Application\bin\Debug\net6.0\Infrastructure.pdb
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Application\obj\Debug\net6.0\Application.csproj.AssemblyReference.cache
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Application\obj\Debug\net6.0\Application.GeneratedMSBuildEditorConfig.editorconfig
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Application\obj\Debug\net6.0\Application.AssemblyInfoInputs.cache
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Application\obj\Debug\net6.0\Application.AssemblyInfo.cs
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Application\obj\Debug\net6.0\Application.csproj.CoreCompileInputs.cache
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Application\obj\Debug\net6.0\Application.csproj.CopyComplete
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Application\obj\Debug\net6.0\Application.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Application\obj\Debug\net6.0\refint\Application.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Application\obj\Debug\net6.0\Application.pdb
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Application\obj\Debug\net6.0\ref\Application.dll
+Index: Api/obj/Debug/net6.0/Api.GeneratedMSBuildEditorConfig.editorconfig
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Api/obj/Debug/net6.0/Api.GeneratedMSBuildEditorConfig.editorconfig b/Api/obj/Debug/net6.0/Api.GeneratedMSBuildEditorConfig.editorconfig
+--- a/Api/obj/Debug/net6.0/Api.GeneratedMSBuildEditorConfig.editorconfig	
++++ b/Api/obj/Debug/net6.0/Api.GeneratedMSBuildEditorConfig.editorconfig	
+@@ -8,9 +8,9 @@
+ build_property._SupportedPlatformList = Linux,macOS,Windows
+ build_property.RootNamespace = Api
+ build_property.RootNamespace = Api
+-build_property.ProjectDir = C:\Users\ma-ri\RiderProjects\projetTI2022\Api\
++build_property.ProjectDir = C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\
+ build_property.RazorLangVersion = 6.0
+ build_property.SupportLocalizedComponentNames = 
+ build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+-build_property.MSBuildProjectDirectory = C:\Users\ma-ri\RiderProjects\projetTI2022\Api
++build_property.MSBuildProjectDirectory = C:\Users\kylli\RiderProjects\projetTI2022Rider\Api
+ build_property._RazorSourceGeneratorDebug = 
+Index: Infrastructure/obj/Debug/net6.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Infrastructure/obj/Debug/net6.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig b/Infrastructure/obj/Debug/net6.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+--- a/Infrastructure/obj/Debug/net6.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig	
++++ b/Infrastructure/obj/Debug/net6.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig	
+@@ -7,4 +7,4 @@
+ build_property.PlatformNeutralAssembly = 
+ build_property._SupportedPlatformList = Linux,macOS,Windows
+ build_property.RootNamespace = Infrastructure
+-build_property.ProjectDir = C:\Users\ma-ri\RiderProjects\projetTI2022\Infrastructure\
++build_property.ProjectDir = C:\Users\kylli\RiderProjects\projetTI2022Rider\Infrastructure\
+Index: Api/obj/Debug/net6.0/Api.csproj.FileListAbsolute.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Api/obj/Debug/net6.0/Api.csproj.FileListAbsolute.txt b/Api/obj/Debug/net6.0/Api.csproj.FileListAbsolute.txt
+--- a/Api/obj/Debug/net6.0/Api.csproj.FileListAbsolute.txt	
++++ b/Api/obj/Debug/net6.0/Api.csproj.FileListAbsolute.txt	
+@@ -160,3 +160,84 @@
+ C:\Users\ma-ri\RiderProjects\projetTI2022\Api\obj\Debug\net6.0\Api.pdb
+ C:\Users\ma-ri\RiderProjects\projetTI2022\Api\obj\Debug\net6.0\Api.genruntimeconfig.cache
+ C:\Users\ma-ri\RiderProjects\projetTI2022\Api\obj\Debug\net6.0\ref\Api.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\appsettings.Development.json
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\appsettings.json
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Api.exe
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Api.deps.json
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Api.runtimeconfig.json
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Api.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Api.pdb
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\AutoMapper.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Azure.Core.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Azure.Identity.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Microsoft.Identity.Client.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Microsoft.OpenApi.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\System.Drawing.Common.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\System.Memory.Data.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\System.Runtime.Caching.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\System.Security.Permissions.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\System.Windows.Extensions.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Application.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Domain.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Infrastructure.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Application.pdb
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Infrastructure.pdb
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\bin\Debug\net6.0\Domain.pdb
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\obj\Debug\net6.0\Api.csproj.AssemblyReference.cache
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\obj\Debug\net6.0\Api.GeneratedMSBuildEditorConfig.editorconfig
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\obj\Debug\net6.0\Api.AssemblyInfoInputs.cache
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\obj\Debug\net6.0\Api.AssemblyInfo.cs
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\obj\Debug\net6.0\Api.csproj.CoreCompileInputs.cache
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\obj\Debug\net6.0\Api.MvcApplicationPartsAssemblyInfo.cs
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\obj\Debug\net6.0\Api.MvcApplicationPartsAssemblyInfo.cache
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\obj\Debug\net6.0\staticwebassets.build.json
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\obj\Debug\net6.0\staticwebassets.development.json
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\obj\Debug\net6.0\scopedcss\bundle\Api.styles.css
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\obj\Debug\net6.0\Api.csproj.CopyComplete
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\obj\Debug\net6.0\Api.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\obj\Debug\net6.0\refint\Api.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\obj\Debug\net6.0\Api.pdb
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\obj\Debug\net6.0\Api.genruntimeconfig.cache
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Api\obj\Debug\net6.0\ref\Api.dll
+Index: Infrastructure/obj/Debug/net6.0/Infrastructure.csproj.FileListAbsolute.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Infrastructure/obj/Debug/net6.0/Infrastructure.csproj.FileListAbsolute.txt b/Infrastructure/obj/Debug/net6.0/Infrastructure.csproj.FileListAbsolute.txt
+--- a/Infrastructure/obj/Debug/net6.0/Infrastructure.csproj.FileListAbsolute.txt	
++++ b/Infrastructure/obj/Debug/net6.0/Infrastructure.csproj.FileListAbsolute.txt	
+@@ -22,3 +22,15 @@
+ C:\Users\ma-ri\RiderProjects\projetTI2022\Infrastructure\obj\Debug\net6.0\refint\Infrastructure.dll
+ C:\Users\ma-ri\RiderProjects\projetTI2022\Infrastructure\obj\Debug\net6.0\Infrastructure.pdb
+ C:\Users\ma-ri\RiderProjects\projetTI2022\Infrastructure\obj\Debug\net6.0\ref\Infrastructure.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Infrastructure\bin\Debug\net6.0\Infrastructure.deps.json
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Infrastructure\bin\Debug\net6.0\Infrastructure.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Infrastructure\bin\Debug\net6.0\Infrastructure.pdb
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.AssemblyReference.cache
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Infrastructure\obj\Debug\net6.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfoInputs.cache
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfo.cs
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CoreCompileInputs.cache
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Infrastructure\obj\Debug\net6.0\Infrastructure.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Infrastructure\obj\Debug\net6.0\refint\Infrastructure.dll
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Infrastructure\obj\Debug\net6.0\Infrastructure.pdb
++C:\Users\kylli\RiderProjects\projetTI2022Rider\Infrastructure\obj\Debug\net6.0\ref\Infrastructure.dll
