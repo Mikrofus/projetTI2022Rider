@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "pA7EeEWIgqO6fmdE0a2dcmo2IXVnd8UuI96NWp7tYPjQWQ8Z79sIc2jAt0kJWVthInNOsRXcz7XHwvhRg11rKg==",
+  "dgSpecHash": "QwhwZf1ZKPlHLanqXF/f7yripTDh50IR1qJ2pPY/+uwuhPvAf4hvRBRA0tLtLOFLhuQO9/atu75KfFbn7Sg0ow==",
   "success": true,
   "projectFilePath": "C:\\Users\\ma-ri\\RiderProjects\\projetTI2022Rider\\unitTest\\unitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ma-ri\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\ma-ri\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\ma-ri\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\ma-ri\\.nuget\\packages\\bcrypt.net\\0.1.0\\bcrypt.net.0.1.0.nupkg.sha512",
     "C:\\Users\\ma-ri\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\ma-ri\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\ma-ri\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
@@ -130,5 +131,16 @@
     "C:\\Users\\ma-ri\\.nuget\\packages\\system.xml.readerwriter\\4.0.11\\system.xml.readerwriter.4.0.11.nupkg.sha512",
     "C:\\Users\\ma-ri\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'BCrypt.Net 0.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "BCrypt.Net",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

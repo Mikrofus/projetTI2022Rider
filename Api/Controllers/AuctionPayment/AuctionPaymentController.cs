@@ -14,12 +14,14 @@ public class AuctionPaymentController : ControllerBase
     private readonly UseCaseFetchAllAuctionPayment _useCaseFetchAllAuctionPayment;
     private readonly UseCaseCreateAuctionPayment _useCaseCreateAuctionPayment;
     private readonly UseCaseFetchByIdAuctionPayment _useCaseFetchByIdAuctionPayment;
+    private readonly UseCaseDeleteAuctionPayment _useCaseDeleteAuctionPayment;
 
-    public AuctionPaymentController(UseCaseFetchAllAuctionPayment useCaseFetchAllAuctionPayment, UseCaseCreateAuctionPayment useCaseCreateAuctionPayment, UseCaseFetchByIdAuctionPayment useCaseFetchByIdAuctionPayment)
+    public AuctionPaymentController(UseCaseFetchAllAuctionPayment useCaseFetchAllAuctionPayment, UseCaseCreateAuctionPayment useCaseCreateAuctionPayment, UseCaseFetchByIdAuctionPayment useCaseFetchByIdAuctionPayment, UseCaseDeleteAuctionPayment useCaseDeleteAuctionPayment)
     {
         _useCaseFetchAllAuctionPayment = useCaseFetchAllAuctionPayment;
         _useCaseCreateAuctionPayment = useCaseCreateAuctionPayment;
         _useCaseFetchByIdAuctionPayment = useCaseFetchByIdAuctionPayment;
+        _useCaseDeleteAuctionPayment = useCaseDeleteAuctionPayment;
     }
     
     
@@ -75,5 +77,14 @@ public class AuctionPaymentController : ControllerBase
             new { id = output.Id },
             output
         );
+    }
+
+    [HttpDelete]
+    [Route("delete/{id:int}")]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    public ActionResult<DtoOutPutAuctionPayment> Delete(int id)
+    {
+        return _useCaseDeleteAuctionPayment.Execute(id);
     }
 }

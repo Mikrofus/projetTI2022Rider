@@ -4,6 +4,7 @@ using Infrastructure.Ef.DbEntities;
 using Infrastructure.Ef.DTOs;
 using Infrastructure.Utils;
 using Microsoft.AspNetCore.Mvc.ModelBinding.Metadata;
+using Microsoft.Win32.SafeHandles;
 
 namespace Infrastructure.Security;
 
@@ -30,8 +31,16 @@ public class TokenService : ITokenService
     public DbUser Authentification(DtoLoginUser dto)
     {
         using var context = _contextProvider.NewContext();
-        var user = context.Users.Where(u => u.Mail.ToUpper() == dto.Mail.ToUpper() && u.Pass.ToUpper() == dto.Password.ToUpper()).FirstOrDefault();
+       
+        
+        
+        var user = context.Users.Where(u => u.Mail.ToUpper() == dto.Mail.ToUpper()).FirstOrDefault();
+
+        if (BCrypt.Net.BCrypt.Verify(dto.Password, user.Pass))
+        {
+            return user;
+        }
     
-        return user;
+        return null;
     }
 }

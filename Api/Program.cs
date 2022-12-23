@@ -46,6 +46,9 @@ builder.Services.AddScoped<UseCaseLogin>();
 builder.Services.AddScoped<UseCaseFetchAllAuctionPayment>();
 builder.Services.AddScoped<UseCaseCreateAuctionPayment>();
 builder.Services.AddScoped<UseCaseFetchByIdAuctionPayment>();
+builder.Services.AddScoped<UseCaseDeleteAuctionPayment>();
+
+
 
 builder.Services.AddCors(options =>
 {

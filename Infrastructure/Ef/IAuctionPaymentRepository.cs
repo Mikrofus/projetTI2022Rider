@@ -9,4 +9,6 @@ public interface IAuctionPaymentRepository
     DbAuctionPayment FetchById(int id);
     
     DbAuctionPayment Create(int id_user, string title, decimal price);
+
+    DbAuctionPayment Delete(int id);
 }

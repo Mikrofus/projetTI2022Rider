@@ -1,5 +1,6 @@
 ﻿using Infrastructure.Ef.DbEntities;
 using Infrastructure.Utils;
+using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Ef;
 
@@ -35,7 +36,23 @@ public class AuctionPaymentRepository : IAuctionPaymentRepository
         context.SaveChanges();
         return auction;
     }
-    
+
+    public DbAuctionPayment Delete(int id)
+    {
+        using var context = _contextProvider.NewContext();
+
+        var auctionPayment = FetchById(id);
+
+        if (auctionPayment != null)
+        {
+            context.Remove(auctionPayment);
+            context.SaveChanges();
+            return auctionPayment;
+        }
+
+        return null;
+    }
+
     public DbAuctionPayment FetchById(int id)
     {
         using var context = _contextProvider.NewContext();
