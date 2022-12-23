@@ -22,6 +22,7 @@ builder.Services.AddScoped<ProjetTI2022ContextProvider>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IAuctionRepository, AuctionRepository>();
 builder.Services.AddScoped<ITokenService, TokenService>();
+builder.Services.AddScoped<IAuctionPaymentRepository, AuctionPaymentRepository>();
 
 
 

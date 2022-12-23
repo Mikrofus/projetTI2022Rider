@@ -17,6 +17,8 @@ public class ProjetTI2022Context : DbContext
     public DbSet<DbUser> Users { get; set; }
     public DbSet<DbAuction> Auctions { get; set; }
     
+    public DbSet<DbAuctionPayment> AuctionPayments { get; set; }
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         if (!optionsBuilder.IsConfigured)
@@ -48,6 +50,16 @@ public class ProjetTI2022Context : DbContext
             entity.Property(a => a.Price).HasColumnName("price");
             entity.Property(a => a.IdUserBid).HasColumnName("id_user_bid");
             entity.Property(a => a.Timer).HasColumnName("timer");
+        });
+
+        modelBuilder.Entity <DbAuctionPayment>(entity =>
+        {
+            entity.ToTable("auction");
+            entity.HasKey(a => a.Id);
+            entity.Property(a => a.Id).HasColumnName("id");
+            entity.Property(a => a.IdUser).HasColumnName(("id_user"));
+            entity.Property(a => a.Title).HasColumnName("title");
+            entity.Property(a => a.Price).HasColumnName("price");
         });
     }
     
