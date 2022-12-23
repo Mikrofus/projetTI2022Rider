@@ -118,7 +118,7 @@ public class UserController : ControllerBase
                 Secure = true
             });
 
-            return Ok(token);
+            return Ok(user);
         }
 
         return Unauthorized();
@@ -148,7 +148,7 @@ public class UserController : ControllerBase
     }
     
     
-    [HttpPost]
+    [HttpDelete]
     [Route("disconnect")]
     [ProducesResponseType((StatusCodes.Status200OK))]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
