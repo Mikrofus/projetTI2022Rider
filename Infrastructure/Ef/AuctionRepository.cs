@@ -46,7 +46,7 @@ public class AuctionRepository : IAuctionRepository
     {
         using var context = _contextProvider.NewContext();
         
-        if (price > 0 && timer > DateTime.Now)
+        if (price > 0 && timer.Day >= DateTime.Now.Day && timer.Hour >= DateTime.Now.Hour && timer.Minute >= DateTime.Now.Minute)
         {
             var auction = new DbAuction
             {
