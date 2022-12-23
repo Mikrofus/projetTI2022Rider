@@ -9,9 +9,8 @@
     <projectFile profileName="projetTI2022">projetTI2022/projetTI2022.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86749c5d-4e9a-45bc-9da6-572b5c137e92" name="Changes" comment="Ajout de controllers">
+    <list default="true" id="86749c5d-4e9a-45bc-9da6-572b5c137e92" name="Changes" comment="Update des controllers">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.projetTI2022/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/Ef/AuctionRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Ef/AuctionRepository.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -354,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671831521701</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Update des controllers">
+      <created>1671832512875</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1671832512875</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -410,6 +416,7 @@
     <MESSAGE value="On sait jamais" />
     <MESSAGE value="Hash mdp" />
     <MESSAGE value="Ajout de controllers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout de controllers" />
+    <MESSAGE value="Update des controllers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update des controllers" />
   </component>
 </project>
