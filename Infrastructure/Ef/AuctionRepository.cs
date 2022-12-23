@@ -45,16 +45,22 @@ public class AuctionRepository : IAuctionRepository
         int id_user_bid, DateTime timer)
     {
         using var context = _contextProvider.NewContext();
-        var auction = new DbAuction
-        {
-            IdUser = id_user, Title = title, Category = category, Descri = descri, Img = pathImage, Price = price,
-            IdUserBid = id_user_bid, Timer = timer
-        };
-
-        context.Auctions.Add(auction);
-        context.SaveChanges();
-        return auction;
         
+        if (price > 0 && timer > DateTime.Now)
+        {
+            var auction = new DbAuction
+            {
+                IdUser = id_user, Title = title, Category = category, Descri = descri, Img = pathImage, Price = price,
+                IdUserBid = id_user_bid, Timer = timer
+            };
+            context.Auctions.Add(auction);
+            context.SaveChanges();
+            return auction;
+        }
+
+
+        return null;
+
     }
 
     public DbAuction SetTopBid(int id, decimal price, int idUserBid)
@@ -66,8 +72,12 @@ public class AuctionRepository : IAuctionRepository
         if (entity == null)
             return null;
 
-        entity.Price = price;
-        entity.IdUserBid = 1;
+        if (price > entity.Price)
+        {
+            entity.Price = price;
+            entity.IdUserBid = idUserBid;
+        }
+        
 
         context.SaveChanges();
 
